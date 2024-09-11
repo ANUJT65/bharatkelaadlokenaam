@@ -33,7 +33,8 @@
    - During the COVID era, students in rural areas struggled with education due to inadequate internet connections and lower speeds.
 
 ## **ARCHITECTURE AND USE CASES**
-- **Demo Video:** [Watch the demo video](https://www.youtube.com/watch?v=6yJG-DD2b1E)
+
+- ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
 
 ## **METHODOLOGY TECH STACK**
 - **Web Development:**
@@ -81,6 +82,7 @@
 
 ## **DEMO VIDEO**
 (Watch the demo video on 2X speed if you prefer.t.)
+- **Demo Video:** [Watch the demo video](https://www.youtube.com/watch?v=6yJG-DD2b1E)
 
 - IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
 
