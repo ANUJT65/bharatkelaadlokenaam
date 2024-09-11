@@ -1,4 +1,3 @@
-# bharatkelaadlokenaam: Fast Education Remotest Places
 
 
 # **Bharat Ke Laadlo Ke Naam Prastut GramShiksha: Providing Fast Education To Remotest Places**  
