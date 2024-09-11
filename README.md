@@ -7,8 +7,6 @@
 ![Track Image](https://your-image-link-here) <!-- Replace with actual track image link if available -->
 
 
-## **PPT LINK: Edu-connect Prototype**
-- [View and Download the PPT Presentation](https://drive.google.com/file/d/1skhAlPQRNljNGoKiMWyiPTb3oBOoJa9W/view)
 
 ## **PROBLEM STATEMENT**
 - **Inadequate Educational Infrastructure:** Rural areas in India lack sufficient physical infrastructure such as classrooms and facilities, which limits access to quality education.
@@ -86,3 +84,5 @@
 [![Watch the demo video]![thumbnail](https://github.com/user-attachments/assets/4a081e46-4828-4e7f-9201-dcf3829fd572)
 ()](https://www.youtube.com/watch?v=6yJG-DD2b1E)
 
+## **PPT LINK: Edu-connect Prototype**
+- [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1FqkkNUAilG22GKpzLw2jHc6gS9xH3AO7hKw9quA5CWw/edit#slide=id.g78bebef4de_0_41)
