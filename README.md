@@ -6,13 +6,6 @@
 ## **TRACK CHOSEN**
 ![Track Image](https://your-image-link-here) <!-- Replace with actual track image link if available -->
 
-## **DEMO VIDEO**
-(Watch the demo video on 2X speed if you prefer. The demo of the solution is towards the end of the video, and all parameters are explained at the start.)
-
-- IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
-
-[![Watch the demo video]![thumbnail](https://github.com/user-attachments/assets/4a081e46-4828-4e7f-9201-dcf3829fd572)
-()](https://www.youtube.com/watch?v=6yJG-DD2b1E)
 
 ## **PPT LINK: Edu-connect Prototype**
 - [View and Download the PPT Presentation](https://drive.google.com/file/d/1skhAlPQRNljNGoKiMWyiPTb3oBOoJa9W/view)
@@ -83,4 +76,13 @@
 
 ## **FUTURE WORK**
 - **WebSocket/RTC and ML Integration:** Integrate WebRTC and ML-based models in cameras before videos are sent over the internet. Where full software integration is not possible, models can be used separately with existing services.
+
+
+## **DEMO VIDEO**
+(Watch the demo video on 2X speed if you prefer.t.)
+
+- IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
+
+[![Watch the demo video]![thumbnail](https://github.com/user-attachments/assets/4a081e46-4828-4e7f-9201-dcf3829fd572)
+()](https://www.youtube.com/watch?v=6yJG-DD2b1E)
 
