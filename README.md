@@ -11,7 +11,8 @@
 
 - IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
 
-[![Watch the demo video](https://img.youtube.com/vi/6yJG-DD2b1E/hqdefault.jpg)](https://www.youtube.com/watch?v=6yJG-DD2b1E)
+[![Watch the demo video]![thumbnail](https://github.com/user-attachments/assets/4a081e46-4828-4e7f-9201-dcf3829fd572)
+()](https://www.youtube.com/watch?v=6yJG-DD2b1E)
 
 ## **PPT LINK: Edu-connect Prototype**
 - [View and Download the PPT Presentation](https://drive.google.com/file/d/1skhAlPQRNljNGoKiMWyiPTb3oBOoJa9W/view)
