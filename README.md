@@ -9,6 +9,9 @@
 
 
 ## **PROBLEM STATEMENT**
+![focus](https://github.com/user-attachments/assets/1ac367d5-52b7-4f04-a56a-8f52986b34fa)
+
+
 - **Inadequate Educational Infrastructure:** Rural areas in India lack sufficient physical infrastructure such as classrooms and facilities, which limits access to quality education.
 - **Limited Internet Connectivity:** Not all villages and towns in India have access to 4G networks or even 3G in some cases.
 - **Insufficient Resources:** Schools in rural areas often struggle to provide up-to-date resources, which affects their education quality.
