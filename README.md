@@ -1,7 +1,7 @@
 # bharatkelaadlokenaam: Fast Education Remotest Places
 
 
-# **Edu-connect: Gram-Shiksha**  
+# **Bharat Ke Laadlo Ke Naam Prastut GramShiksha: Providing Fast Education To Remotest Places**  
 **Low-Bandwidth Solutions for Interactive Education**
 
 ## **TRACK CHOSEN**
