@@ -206,49 +206,6 @@ Our platform includes advanced AI-generated resources to enhance the educational
 - [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1FqkkNUAilG22GKpzLw2jHc6gS9xH3AO7hKw9quA5CWw/edit#slide=id.g78bebef4de_0_41)
 
 
-
-
-
-For more information, please contact us or visit our website.
-
-
-## **System Architecture**
-
-1. **Segmented Video Content:**
-   - Videos are segmented to generate targeted quizzes and analyses.
-2. **Real-Time Analytics:**
-   - Insights into student engagement and learning patterns.
-
----
-
-## **Research and Innovations**
-
-1. **AI-Driven Transcription and Summarization:**
-   - **Tools:** [Whisper](https://openai.com/research/whisper) for speech-to-text, [Azure Image Captioning](https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview) for generating textual descriptions of images.
-   - **Innovation:** Generates video summaries and interactive content.
-
-2. **Question Generation:**
-   - **Tools:** [Mistral 7B LLM](https://mistral.ai) for creating MCQs.
-   - **Innovation:** Provides quizzes based on video content.
-
-3. **Concept Visualization:**
-   - **Tools:** [AI](https://www.tensorflow.org/) for visual aids and detailed notes.
-   - **Innovation:** Creates flowcharts and summaries for better understanding.
-
-4. **Engagement Monitoring:**
-   - **Tools:** Real-time analytics for tracking student engagement.
-   - **Innovation:** Offers feedback to improve the learning experience.
-
-5. **Adaptive Quiz Module:**
-   - **Tools:** [Scikit Learn](https://scikit-learn.org/) for adaptive quiz difficulty.
-   - **Innovation:** Personalizes quizzes based on student performance.
-
-6. **Real-Time Query Resolution:**
-   - **Tools:** [RAG-based chatbot](https://huggingface.co/docs/transformers/model_doc/rag) for instant support.
-   - **Innovation:** Provides real-time answers and assistance.
-
----
-
 ## **Technology Stack**
 
 ### **Web Development**
