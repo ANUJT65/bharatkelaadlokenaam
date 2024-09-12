@@ -13,7 +13,8 @@
 5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation.
 
 ## **USP**
-![USP](https://github.com/user-attachments/assets/3af699d9-1a28-448e-af89-da6163f4cdb6)
+
+![USP](https://github.com/user-attachments/assets/6fc488a2-d893-4205-b1e7-4b1b37270ed9)
 
 ## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN)**
 
