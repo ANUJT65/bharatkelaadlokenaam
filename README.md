@@ -112,13 +112,13 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 ---
 
 ## **Advantages of Our Platform**
-https://litebreeze.com/blog/2020/11/27/scaling-your-web-applications/
+
 
 1. **Optimized Data Usage:** Our platform reduces data consumption by pre-downloading PowerPoint slides and synchronizing slide changes via WebSocket. This minimizes the bandwidth impact of screen sharing.
 2. **Efficient Content Delivery:** Leveraging WebRTC for audio streaming and a streamlined Jamboard integration ensures a low-bandwidth, high-quality educational experience.
 3. **Low Bandwidth Requirements:** Designed for low-bandwidth environments, our platform provides a smooth educational experience even in remote areas.
 4. **High-Quality Playback:** Azure CDN ensures smooth video playback and reduces buffering.
-src: https://litebreeze.com/blog/2020/11/27/scaling-your-web-applications/
+
 
 ---
 
@@ -139,6 +139,7 @@ src: https://litebreeze.com/blog/2020/11/27/scaling-your-web-applications/
 
 ## **Advantages of Azure CDN for Remote Education for downloading of video/playback of video and also for scalability**
 ![third-system](https://github.com/user-attachments/assets/918a98ae-1d87-447c-9be9-692177a9d1f9)
+src: https://litebreeze.com/blog/2020/11/27/scaling-your-web-applications/
 
 1. **Global Reach:** Efficient content delivery worldwide, including remote areas.
 2. **Low Latency:** Reduces delays and buffering, providing smooth access to educational content.
