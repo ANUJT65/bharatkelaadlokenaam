@@ -117,7 +117,7 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 
 ---
 
-## **Plan Part 1 : Smartboard + Pre-Downloaded PPT + Audio**
+## **Plan Part 1 : Smartboard + Pre-Downloaded PPT + Audio (100MB)**
 
 - **Overview:** Integrates WebSockets/WebRTC for audio streaming and pre-downloaded PowerPoint slides.
 - **Components:**
@@ -125,11 +125,11 @@ Our platform uniquely addresses data consumption issues, which is a major concer
   - **PPT Slides:** Pre-downloaded slides with updates broadcasted via WebSocket.
 - **Implementation:** Students access audio and slides with minimal data usage. Changes in slides are efficiently communicated to the React app.
 - **Bandwidth Usage:**
-  - **Audio Only:** ~30 MB - 100 MB per hour.
+  - **Audio Only:** ~30 MB - 60 MB per hour.
   - **PPT:** Minimal impact (pre-downloaded).
 
 ---
-## **Plan part 2 : Enagement Enhancer Module**
+## **Plan part 2 : Enagement Enhancer Module(MAJOR DATA CONSUMPTION WILL ONLY BE IN RETRIEVAL OF RESOURCES)**
 - SO After live stream teacher will upload the lecture  where azure cdn and engagement enhancer module will come to play
 
 ## **Advantages of Azure CDN for Remote Education for downloading of video/playback of video**
@@ -139,7 +139,6 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 3. **Scalability:** Supports large traffic volumes and spikes.
 4. **High Availability:** Ensures reliable access to resources with minimal downtime.
 5. **Cost Efficiency:** Lowers bandwidth and infrastructure costs.
-
 
 ## **AI-Generated Resources**
 
@@ -154,9 +153,6 @@ Our platform includes advanced AI-generated resources to enhance the educational
 6. **Vocational Learning/Tests through AI Avatar Chatbot:** AI avatar teacher which would give insights on basis of tone of students and also responses given by them to the questions posed by ai avatar module great for personality development.
    
 
-
-
-
 ### **Previous Methodology(OUR TRIAL AND ERROR )**
 
 - Previously, NLP-based methods were used for question generation, but they were resource-intensive and less accurate. 
@@ -164,6 +160,9 @@ Our platform includes advanced AI-generated resources to enhance the educational
 - We have gone from T5, to BERT to Mistral7B to Groq LLAMA and Gemini.
 - So entire process of research has been done to get the best mcqs
 ![questionsmodel](https://github.com/user-attachments/assets/d78be147-b92e-44e2-9533-648f8a58f121)
+
+
+### **Business Aspects and Cost Analysis**
 
 ### **Cost Effectiveness ALL RESOURCES ARE GENERATED ONLY ONCE WHEN VIDEO IS UPLOADED TO SAVE COSTS**
 
