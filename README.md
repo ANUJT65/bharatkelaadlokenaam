@@ -6,15 +6,17 @@
 ## **Some Considerations before we begin**
 - We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
 - **We have divided our project into 2 parts**
-- 1)Live recorded ( low latency streaming) of video lectures Module
-- 2)VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption)  .
+- 1)Live ( low latency streaming) of video lectures Module
+- Here students will just join classroom and teacher would teach like in a regular meet
+- 2)VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption).
+- Here there is loads of ai generated resources, engagement enhancing resources which generate interests in learning and all given through lowest data consumption.
 
 
 ## **OUR FOCUS**
 
-1. **Enhance Resource Access:** Improve access to quality resources for children in rural areas.
+1. **Provide AI-Generated Resources:** Provide a one-stop solution for teachers and students with AI-generated resources, saving time and cost compared to physical resources.
 2. **Implement Low-Internet Services:** Develop solutions that function well with limited internet connectivity.
-3. **AI-Generated Resources:** Provide a one-stop solution for teachers and students with AI-generated resources, saving time and cost compared to physical resources.
+3. **Enhance Engagement(MAJOR PROBLEM IN ONLINE EDUCATION):** Even if we provide all resources , many students dont really utilize these things, so we have various modules to encourage students to learn.
 4. **Identify At-Risk Students:** Help identify students who are weaker, have lower attendance, or are at risk of dropping out and improve engagement by 1 on 1 counselling by teachers.
 5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation.
 
@@ -30,7 +32,7 @@
 5. **After-Class Comprehensive Notes:** Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
 6. **Doubts Assistant and Career Guidance Companion:**
    - **Chatbot:** Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
-   - **Career Guidance AI Avatar:** Helps students in choosing careers and assists in personality development.
+7. **Vocational Learning AI Avatar:** Helps students in choosing careers and assists in personality development as well as in vocational learning.
 
 
 ## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN)**
