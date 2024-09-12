@@ -42,36 +42,6 @@
    - **Chatbot:** Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
    - **Career Guidance AI Avatar:** Helps students in choosing careers and assists in personality development.
 
-## **DEPENDENCIES**
-- **Cost Management:** Ensuring that the cost for the platform remains manageable. Most materials like MCQs, images, and notes are generated once and stored in Azure Blob and MongoDB Atlas while videos are uploading.
-- **Scalability:** Ensuring that databases are deployed on the cloud to balance user load and maintain system scalability.
-
-## **REFERENCES**
-1. [AI-Generated Resources and Utilization](https://docs.google.com/document/d/14re6fryT5AbtQjucr57YsmUxMyIjwWaGiusrRAzYcGs/edit?addon_store)
-2. [Bandwidth Reduction and Low Latency Streaming](https://docs.google.com/document/d/1nz2BZhKVGAW2OFdqejp5t70CiXt33XkHybpRM6g80zU/edit)
-
-## **BUSINESS RELEVANCE**
-- **PaaS:** Our software can function as a Platform as a Service (PaaS) option for low-latency internet networks in rural India.
-- **SaaS:** The Engagement Enhancer Module can be integrated into smaller edtech platforms and educational institutions as APIs, tailored to their needs.
-
-## **FUTURE WORK**
-- **WebSocket/RTC and ML Integration:** Integrate WebRTC and ML-based models in cameras before videos are sent over the internet. Where full software integration is not possible, models can be used separately with existing services.
-
-
-## **DEMO VIDEO**
-(Watch the demo video on 2X speed if you prefer.t.)
-- **Demo Video:** [Watch the demo video](https://www.youtube.com/watch?v=6yJG-DD2b1E)
-
-- IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
-
-[![Watch the demo video]![thumbnail](https://github.com/user-attachments/assets/4a081e46-4828-4e7f-9201-dcf3829fd572)
-()](https://www.youtube.com/watch?v=6yJG-DD2b1E)
-
-## **PPT LINK: Edu-connect Prototype**
-- [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1FqkkNUAilG22GKpzLw2jHc6gS9xH3AO7hKw9quA5CWw/edit#slide=id.g78bebef4de_0_41)
-
-
-
 
 ## OUR RESEARCH ON LOW LATENCY VIDEO STREAMING
 # Comparison of Our Platform with Google Meet
@@ -184,6 +154,7 @@ Our platform includes advanced AI-generated resources to enhance the educational
 
 Previously, NLP-based methods were used for question generation, but they were resource-intensive and less accurate. We transitioned to advanced LLMs like LLAMA and Gemini for better performance.
 
+
 ### **Cost Effectiveness**
 
 - **AI-Generated Resources:** Created once and stored in Azure Blob Storage and MongoDB Atlas, reducing repeated generation costs and optimizing resource usage.
@@ -195,6 +166,36 @@ Previously, NLP-based methods were used for question generation, but they were r
 - **Reduced Bandwidth Costs:** Optimized data usage lowers operational costs, making it a cost-effective solution for remote education.
 
 ---
+
+## **DEPENDENCIES**
+- **Cost Management:** Ensuring that the cost for the platform remains manageable. Most materials like MCQs, images, and notes are generated once and stored in Azure Blob and MongoDB Atlas while videos are uploading.
+- **Scalability:** Ensuring that databases are deployed on the cloud to balance user load and maintain system scalability.
+
+## **REFERENCES**
+1. [AI-Generated Resources and Utilization](https://docs.google.com/document/d/14re6fryT5AbtQjucr57YsmUxMyIjwWaGiusrRAzYcGs/edit?addon_store)
+2. [Bandwidth Reduction and Low Latency Streaming](https://docs.google.com/document/d/1nz2BZhKVGAW2OFdqejp5t70CiXt33XkHybpRM6g80zU/edit)
+
+## **BUSINESS RELEVANCE**
+- **PaaS:** Our software can function as a Platform as a Service (PaaS) option for low-latency internet networks in rural India.
+- **SaaS:** The Engagement Enhancer Module can be integrated into smaller edtech platforms and educational institutions as APIs, tailored to their needs.
+
+## **FUTURE WORK**
+- **WebSocket/RTC and ML Integration:** Integrate WebRTC and ML-based models in cameras before videos are sent over the internet. Where full software integration is not possible, models can be used separately with existing services.
+
+
+## **DEMO VIDEO**
+(Watch the demo video on 2X speed if you prefer.t.)
+- **Demo Video:** [Watch the demo video](https://www.youtube.com/watch?v=6yJG-DD2b1E)
+
+- IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
+
+[![Watch the demo video]![thumbnail](https://github.com/user-attachments/assets/4a081e46-4828-4e7f-9201-dcf3829fd572)
+()](https://www.youtube.com/watch?v=6yJG-DD2b1E)
+
+## **PPT LINK: Edu-connect Prototype**
+- [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1FqkkNUAilG22GKpzLw2jHc6gS9xH3AO7hKw9quA5CWw/edit#slide=id.g78bebef4de_0_41)
+
+
 
 
 
