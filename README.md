@@ -7,7 +7,7 @@
 - We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
 - Our Understanding is that we are providing remote education to students until government has enough data on student demographics/attendance etc to provide proper infrastructure to the students.
 
-- **With these things in mind We have divided our project into 2 parts**
+## **With these things in mind We have divided our project into 2 parts**
 - 1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.
 - Here students will just join classroom and teacher would teach like in a regular meet but through low data consumption and better human interaction.
 - 2)PreRecorded Lecture VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption).
