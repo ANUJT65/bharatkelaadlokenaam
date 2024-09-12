@@ -58,12 +58,9 @@
 
 
 ## OUR RESEARCH ON LOW LATENCY VIDEO STREAMING
-# Comparison of Our Platform with Google Meet
-
 **Optimized for Low Data Usage and Enhanced Remote Education**
-
+# Comparison of Our Platform with Google Meet
 ---
-
 ## **How We Reduced Data Usage**
 
 Our platform uniquely addresses data consumption issues, which is a major concern in remote education:
