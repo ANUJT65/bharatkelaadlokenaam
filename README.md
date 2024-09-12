@@ -138,6 +138,8 @@ Our platform includes advanced AI-generated resources to enhance the educational
 3. **AI-Generated Flow Diagrams and Process Flows:** Summarized and generated using nodes and connections for clear visualizations.
 4. **Doubt Solving Chatbot:** RAG-based chatbot for addressing questions related to lecture content.
 5. **Image Visualizations:** AI-generated visualizations to support lecture content understanding.
+6. **Vocational Learning/Tests through AI Avatar Chatbot:** AI avatar teacher which would give insights on basis of tone of students and also responses given by them to the questions posed by ai avatar module great for personality development.
+   
 
 
 
