@@ -28,6 +28,9 @@
 - ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
 
 ## **METHODOLOGY TECH STACK**
+
+![Methodology](https://github.com/user-attachments/assets/5b56e547-4583-4d5e-9377-bd0b735ef766)
+
 - **Web Development:**
   - **Technologies:** Next.js, Flask, Tailwind CSS
 - **Generative AI / Machine Learning:**
