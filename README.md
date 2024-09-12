@@ -17,16 +17,16 @@
 Our platform uniquely addresses data consumption issues, which is a major concern in remote education:
 
 
-**Pre-Downloaded PowerPoint Slides:** (Consumption of data 10-20 mb)
+**1) Pre-Downloaded PowerPoint Slides:** (Consumption of data 10-20 mb)
 - To optimize data usage, our solution pre-downloads the PowerPoint slides and broadcasts only the slide number that changes.
 - This approach significantly reduces the data required for streaming.
 - The slide number update is communicated through **WebSocket**, ensuring that the React app synchronizes to the corresponding slide efficiently and **its streamed to all participants**
 - Typical data usage is just 10-20 mb as slides switched are not too often
   
-- **Audio Streaming through WebRTC:** (Consumption of data 30-60 mb)
+**2) Audio Streaming through WebRTC:** (Consumption of data 30-60 mb)
 - We use WebRTC for audio streaming, which ensures low latency and high-quality audio while minimizing data consumption.
   
-- **Jamboard Integration:** 
+**3) Jamboard Integration:** 
 - A streamlined version of Jamboard is included on the right side of the screen to assist teachers in explaining the content of the PowerPoint. This addition ensures that while the slides provide the primary content, the Jamboard supports interactive explanations.
 
 - By focusing on these optimizations, we ensure that data usage remains minimal, with most streaming happening at low latency and with low data consumption.
