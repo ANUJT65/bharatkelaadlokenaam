@@ -3,8 +3,6 @@
 # **Bharat Ke Laadlo Ke Naam Prastut GramShiksha: Providing Fast Education To Remotest Places**  
 **Low-Bandwidth Solutions for Interactive Education**
 
-## **TRACK CHOSEN**
-![Track Image](https://your-image-link-here) <!-- Replace with actual track image link if available -->
 
 
 
@@ -24,13 +22,6 @@
 4. **AI-Generated Resources:** Provide a one-stop solution for teachers and students with AI-generated resources, saving time and cost compared to physical resources.
 5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation.
 
-## **INSIGHTS ON TRADITIONAL LEARNING**
-1. **Student-Teacher Ratios:**
-   - **Secondary Education:** The student-teacher ratio is notably higher, at 60:1, indicating larger class sizes and potentially reduced individualized attention.
-   - **Online Education:** The ratio can be even higher, making individual attention for each student difficult.
-2. **Internet Access:**
-   - Many areas in India still lack sufficient internet networks.
-   - During the COVID era, students in rural areas struggled with education due to inadequate internet connections and lower speeds.
 
 ## **ARCHITECTURE AND USE CASES**
 
@@ -91,3 +82,191 @@
 
 ## **PPT LINK: Edu-connect Prototype**
 - [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1FqkkNUAilG22GKpzLw2jHc6gS9xH3AO7hKw9quA5CWw/edit#slide=id.g78bebef4de_0_41)
+
+
+
+
+
+
+## **System Architecture**
+
+1. **Segmented Video Content:**
+   - Videos are segmented to generate targeted quizzes and analyses.
+2. **Real-Time Analytics:**
+   - Insights into student engagement and learning patterns.
+
+---
+
+## **Research and Innovations**
+
+1. **AI-Driven Transcription and Summarization:**
+   - **Tools:** [Whisper](https://openai.com/research/whisper) for speech-to-text, [Azure Image Captioning](https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview) for generating textual descriptions of images.
+   - **Innovation:** Generates video summaries and interactive content.
+
+2. **Question Generation:**
+   - **Tools:** [Mistral 7B LLM](https://mistral.ai) for creating MCQs.
+   - **Innovation:** Provides quizzes based on video content.
+
+3. **Concept Visualization:**
+   - **Tools:** [AI](https://www.tensorflow.org/) for visual aids and detailed notes.
+   - **Innovation:** Creates flowcharts and summaries for better understanding.
+
+4. **Engagement Monitoring:**
+   - **Tools:** Real-time analytics for tracking student engagement.
+   - **Innovation:** Offers feedback to improve the learning experience.
+
+5. **Adaptive Quiz Module:**
+   - **Tools:** [Scikit Learn](https://scikit-learn.org/) for adaptive quiz difficulty.
+   - **Innovation:** Personalizes quizzes based on student performance.
+
+6. **Real-Time Query Resolution:**
+   - **Tools:** [RAG-based chatbot](https://huggingface.co/docs/transformers/model_doc/rag) for instant support.
+   - **Innovation:** Provides real-time answers and assistance.
+
+---
+
+## **Technology Stack**
+
+### **Web Development**
+
+- **Front-End:** [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/)
+  - **Usage:** For server-side rendering, dynamic content, and responsive UI.
+- **Back-End:** [Flask](https://flask.palletsprojects.com/)
+  - **Usage:** For creating a scalable backend and integrating AI models.
+
+### **Generative AI / Machine Learning**
+
+- **Models:**
+  - **[Whisper](https://openai.com/research/whisper):** For speech-to-text transcription.
+  - **[Azure Image Captioning](https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview):** For generating textual descriptions of images.
+  - **[Mistral 7B LLM](https://mistral.ai):** For creating multiple-choice questions (MCQs).
+  - **[Scikit Learn](https://scikit-learn.org/):** For machine learning algorithms in data analysis.
+  - **[Gemini](https://www.google.com/search/about/):** For advanced analytics and content generation.
+  - **[LangChain](https://www.langchain.com/):** For language model integration.
+  - **[Chroma](https://chroma.com/):** For vector-based data storage and retrieval.
+
+### **Deployment**
+
+- **Platforms:**
+  - **[Azure CDN](https://azure.microsoft.com/en-us/services/cdn/):** For efficient content delivery and low latency.
+  - **[Docker](https://www.docker.com/):** For application deployment and scaling.
+  - **[Vector DB Atlas](https://www.mongodb.com/atlas):** For managing vector-based data.
+  - **[Azure App Services](https://azure.microsoft.com/en-us/services/app-service/):** For hosting and managing the web application.
+- **Database:**
+  - **[MongoDB Atlas](https://www.mongodb.com/atlas):** For storing educational content and user data.
+  - **[Chroma](https://chroma.com/):** For vector-based data storage and retrieval.
+
+---
+
+## **Unique Features**
+
+1. **Low Internet Consumption:** Optimized content delivery for low-bandwidth environments.
+2. **Adaptive Learning Module:** Customizes quiz difficulty to individual needs.
+3. **Personalized Attention:** Provides detailed analytics for tailored support.
+4. **Visualization Tools:** AI-generated images and notes to enhance learning.
+5. **Custom Flowcharts:** Summarizes content visually for better comprehension.
+
+---
+
+## **Plans for Remote Education**
+
+### **Plan 1: Smartboard + Pre-Downloaded PPT + Audio**
+
+- **Components:** WebSockets/WebRTC for audio; smartboard for PPT slides.
+- **Implementation:** Audio streaming with pre-downloaded slides.
+- **Advantages:** Low bandwidth, no live slide synchronization needed, high-quality playback via CDN.
+
+### **Plan 2: Real-Time Online Classes with WebRTC/FFmpeg**
+
+- **Components:** WebRTC for live streaming; FFmpeg for encoding.
+- **Implementation:** Real-time interaction with no slide synchronization.
+- **Advantages:** Interactive experience with minimal latency.
+
+---
+
+## **Technology Comparison**
+
+### **FFmpeg vs. WebRTC vs. WebSocket**
+
+- **FFmpeg:** Media processing, moderate latency, high scalability, and reliability.
+- **WebRTC:** Real-time peer-to-peer communication, low latency, encrypted, challenging scalability.
+- **WebSocket:** Real-time client-server communication, low latency, high reliability with TCP.
+
+### **Data Usage Comparison**
+
+| **Technology** | **Type**        | **Latency** | **Resolution** | **Data Usage (per hour)** |
+|----------------|-----------------|-------------|----------------|---------------------------|
+| Google Meet    | Video + Audio   | 500 ms       | 360p-1080p     | 0.6-4 GB                  |
+| WebRTC         | Video + Audio   | 100-500 ms   | 720p/1080p     | 1.5-6 GB                  |
+| WebSocket      | Video + Audio   | 100-500 ms   | 720p/1080p     | 1.5-6 GB                  |
+
+---
+
+## **Advantages of Azure CDN**
+
+- **Global Reach:** Efficient content delivery worldwide.
+- **Low Latency:** Reduces delays and buffering.
+- **Scalability:** Handles large traffic volumes.
+- **High Availability:** Reliable access, minimizing downtime.
+- **Cost Efficiency:** Reduces bandwidth and infrastructure costs.
+
+---
+
+## **Reducing Data Usage**
+
+- **Issue:** High data usage during screen sharing.
+- **Solution:** Pre-download PPTs and use a single variable slide number broadcasted via WebSocket.
+
+---
+
+## **AI-Generated Resources**
+
+- **Multiple Choice Questions:** Adaptive difficulty based on lecture content.
+- **AI-Generated Notes:** Summarized notes based on lectures.
+- **AI-Generated Flow Diagrams:** Summarized and keyword-limited diagrams.
+- **Doubt Solving Chatbot:** RAG-based chatbot for lecture-related doubts.
+- **Image Visualizations:** Automated visual aids.
+
+---
+
+## **Previous Methodology**
+
+- **Old Approach:** NLP-based question generation was resource-intensive and inaccurate.
+- **New Approach:** LLMs like LLAMA and Gemini for improved results.
+
+---
+
+## **Business Relevance**
+
+### **Platform as a Service (PaaS)**
+
+- **Low-Latency Solutions:** Offer scalable educational solutions for rural areas with limited internet.
+
+### **Software as a Service (SaaS)**
+
+- **Integration with EdTech Platforms:** APIs for integration with smaller edtech platforms and institutions.
+
+### **Cost Efficiency**
+
+- **Reduced Physical Resource Costs:** Minimizes the need for physical resources using AI-generated content.
+
+---
+
+## **Future Enhancements**
+
+### **Augmented Reality (AR) and Gamified Learning**
+
+- **Advanced Integration:** Explore AR and gamified learning tools for enhanced educational experiences.
+
+### **Expansion to Additional Tools**
+
+- **New AI Models:** Integrate new tools and models to further enhance learning and engagement.
+
+---
+
+## **Contact and Further Information**
+
+For more details, contact us or visit our website.
+
+---
+
