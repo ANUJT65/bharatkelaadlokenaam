@@ -5,11 +5,13 @@
 
 ## **Some Considerations before we begin**
 - We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
-- **We have divided our project into 2 parts**
-- 1)Live ( low latency streaming) of video lectures Module
-- Here students will just join classroom and teacher would teach like in a regular meet
-- 2)VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption).
-- Here there is loads of ai generated resources, engagement enhancing resources which generate interests in learning and all given through lowest data consumption.
+- Our Understanding is that we are providing remote education to students until government has enough data on student demographics/attendance etc to provide proper infrastructure to the students.
+
+- **With these things in mind We have divided our project into 2 parts**
+- 1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.
+- Here students will just join classroom and teacher would teach like in a regular meet but through low data consumption and better human interaction.
+- 2)PreRecorded Lecture VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption).
+- Here there is loads of ai generated resources, engagement enhancing resources which generate interests in learning and all given through lowest data consumption on a prerecorded lecture.
 
 
 ## **OUR FOCUS**
@@ -42,6 +44,7 @@
 ## **METHODOLOGY TECH STACK**
 
 ![Methodology](https://github.com/user-attachments/assets/5b56e547-4583-4d5e-9377-bd0b735ef766)
+
 ## (For low latency research details scroll down, we have a great innovation)
 
 
@@ -109,6 +112,7 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 ---
 
 ## **Advantages of Our Platform**
+https://litebreeze.com/blog/2020/11/27/scaling-your-web-applications/
 
 1. **Optimized Data Usage:** Our platform reduces data consumption by pre-downloading PowerPoint slides and synchronizing slide changes via WebSocket. This minimizes the bandwidth impact of screen sharing.
 2. **Efficient Content Delivery:** Leveraging WebRTC for audio streaming and a streamlined Jamboard integration ensures a low-bandwidth, high-quality educational experience.
