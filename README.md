@@ -8,9 +8,9 @@
 - Our Understanding is that we are providing remote education to students until government has enough data on student demographics/attendance etc to provide proper infrastructure to the students.
 
 ## **With these things in mind We have divided our project into 2 parts**
-1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.
+- **1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.**
 - Here students will just join classroom and teacher would teach like in a regular meet but through low data consumption and better human interaction.
-2)PreRecorded Lecture VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption).
+- **2)PreRecorded Lecture VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption)**
 - Here there is loads of ai generated resources, engagement enhancing resources which generate interests in learning and all given through lowest data consumption on a prerecorded lecture.
 
 
@@ -27,14 +27,20 @@
 ![USP](https://github.com/user-attachments/assets/6fc488a2-d893-4205-b1e7-4b1b37270ed9)
 
 ## **UNIQUENESS**
-1. **Lower Internet Consumption:** Provides remote online classes using just 60-100 MB of data per hour, significantly less than the typical 600 MB-1 GB.
-2. **Adaptive Learning Quiz Module:** Developed an adaptive learning quiz system where the difficulty of the next question is determined by the accuracy of previously answered questions.
-3. **Individual Attention and Counseling:** Focus on weaker students through engagement, score, and attendance analytics. Offers 1-to-1 counseling by teachers and doubt sessions.
-4. **Visualization of Key Concepts:** Generation of images related to key concepts taught in the video, helping students visualize key points.
-5. **After-Class Comprehensive Notes:** Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
+1. **Lower Internet Consumption:**
+- Provides remote online classes using just **60-100 MB** of data per hour, significantly less than the typical 600 MB-1 GB.
+2. **Adaptive Learning Quiz Module:**
+-  Developed an adaptive learning quiz system where the difficulty of the next question is determined by the accuracy of previously answered questions.
+3. **Individual Attention and Counseling:**
+-  Focus on weaker students through engagement, score, and attendance analytics. Offers 1-to-1 counseling by teachers and doubt sessions.
+4. **Visualization of Key Concepts:**
+-  Generation of images related to key concepts taught in the video, helping students visualize key points.
+5. **After-Class Comprehensive Notes:**
+- Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
 6. **Doubts Assistant and Career Guidance Companion:**
-   - **Chatbot:** Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
-7. **Vocational Learning AI Avatar:** Helps students in choosing careers and assists in personality development as well as in vocational learning.
+- Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
+7. **Vocational Learning AI Avatar:**
+- Helps students in choosing careers and assists in personality development as well as in vocational learning.
 
 
 ## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN)**
