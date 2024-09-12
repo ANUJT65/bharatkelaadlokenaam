@@ -31,17 +31,11 @@
 
 ![Methodology](https://github.com/user-attachments/assets/5b56e547-4583-4d5e-9377-bd0b735ef766)
 
+- **TECH STACK Description**
 - **Web Development:**
   - **Technologies:** Next.js, Flask, Tailwind CSS
 - **Generative AI / Machine Learning:**
   - **Models:** Whisper Speech-to-Text, Azure Image Captioning, Mistral 7B LLM, Scikit Learn, Gemini, LangChain, Chroma
-  - **Features:**
-    1. **Accurate Transcription Generation:** Utilize Whisper Speech-to-Text & Azure Image Captioning model to transcribe spoken content and images from videos into textual format.
-    2. **Multi-model Video Summarization:** Combines video frame extraction with transcription analysis for a detailed video summary.
-    3. **Gamified Question Generation:** Using Mistral 7B LLM to generate MCQ questions at intervals of 2-5 minutes based on the summary.
-    4. **Concept Visualization:** Essential concepts are identified through keyword extraction, and images are generated.
-    5. **Flowchart and Notes Generation:** Develop flowcharts and class notes summarizing key concepts and visualizing content structure.
-    6. **Engagement Analytics:** Monitor engagement throughout the video and report appropriate feedback to teachers.
 - **Low Latency Smart Board:**
   - **Technologies:** WebSockets/WebRTC for audio streaming, pre-downloaded PPT slides
 - **Deployment:**
