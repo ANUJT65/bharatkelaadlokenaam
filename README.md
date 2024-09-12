@@ -5,7 +5,7 @@
 
 
 
-
+## OUR RESEARCH ON LOW LATENCY VIDEO STREAMING
 # Comparison of Our Platform with Google Meet
 
 **Optimized for Low Data Usage and Enhanced Remote Education**
@@ -16,13 +16,14 @@
 
 Our platform uniquely addresses data consumption issues, which is a major concern in remote education:
 
-- **Screen Sharing Optimization:**
-- In typical platforms, data usage spikes due to frequent updates in screen sharing. We have identified that the majority of data is consumed during screen sharing, which is updated every second or more frequently. However, in the case of PowerPoint presentations, slides are not changed as rapidly.
+
+**Pre-Downloaded PowerPoint Slides:** (Consumption of data 10-20 mb)
+- To optimize data usage, our solution pre-downloads the PowerPoint slides and broadcasts only the slide number that changes.
+- This approach significantly reduces the data required for streaming.
+- The slide number update is communicated through **WebSocket**, ensuring that the React app synchronizes to the corresponding slide efficiently and **its streamed to all participants**
+- Typical data usage is just 10-20 mb as slides switched are not too often
   
-- **Pre-Downloaded PowerPoint Slides:** 
-- To optimize data usage, our solution pre-downloads the PowerPoint slides and broadcasts only the slide number that changes. This approach significantly reduces the data required for streaming. The slide number update is communicated through WebSocket, ensuring that the React app synchronizes to the corresponding slide efficiently.
-  
-- **Audio Streaming through WebRTC:**
+- **Audio Streaming through WebRTC:** (Consumption of data 30-60 mb)
 - We use WebRTC for audio streaming, which ensures low latency and high-quality audio while minimizing data consumption.
   
 - **Jamboard Integration:** 
@@ -32,7 +33,7 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 
 ---
 
-## **Data Usage Comparison**
+## **Data Usage Comparison and Latency Comparison with existing platforms**
 
 ### **Google Meet**
 
@@ -49,9 +50,11 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 | **WebRTC Video + Audio** | Video & Audio    | 100-500 ms   | 720p/1080p     | 1.5-6 GB                  |
 | **WebSocket Video + Audio** | Video & Audio | 100-500 ms   | 720p/1080p     | 1.5-6 GB                  |
 
+## This is the reason we only considred audio of webrtc + updation of slides through websockets so that we could have ultimate version of low latency online education.
+
 ---
 
-## **Technology Comparison**
+## **Technology Comparison why we chose webrtc and websockets**
 
 | **Feature/Aspect**        | **FFmpeg**                              | **WebRTC**                                | **WebSocket**                           |
 |---------------------------|-----------------------------------------|-------------------------------------------|----------------------------------------|
@@ -59,10 +62,7 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 | **Communication Type**    | Typically client-server                 | Peer-to-peer                              | Client-server                          |
 | **Protocols Used**        | RTMP, RTP, HTTP, RTSP                    | UDP (primarily), TCP                      | TCP                                    |
 | **Latency**               | Moderate to high                        | Low latency                               | Low latency                             |
-| **Data Types Supported**  | Audio, video, subtitles, metadata       | Audio, video, arbitrary data              | Text, binary data                       |
-| **Security**              | Dependent on implementation             | Encrypted using Secure Real-Time Transport Protocol (SRTP) | Dependent on implementation (TLS can be used for encryption) |
-| **Scalability**           | High, depending on server capabilities  | Challenging at scale due to CPU and bandwidth demands | High, but requires careful management of state and connections |
-| **Reliability**           | High for media processing               | Less reliable with UDP (packet loss), more with TCP | High reliability with TCP               |
+| **Reliability**           | High for media processing               | Less reliable with UDP (packet loss), more with TCP | High reliability with TCP     |
 
 ---
 
