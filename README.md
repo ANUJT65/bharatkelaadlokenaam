@@ -79,7 +79,7 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 |--------------------|-------------|-------------------------|------------------------------|--------------------------|-------------------------|
 | **Video + Audio**  | ~500 ms      | ~0.6 GB to 1 GB per hour| ~1 GB to 1.5 GB per hour     | ~1.5 GB to 2.5 GB per hour| ~2.5 GB to 4 GB per hour|
 
-### **Our Platform**
+### **Our Platform ( Why we only considered websockets(for ppt state variable updation ) and webrtc ( for audio streaming) **
 
 | **Technology**           | **Type**        | **Latency** | **Resolution** | **Data Usage (per hour)** |
 |--------------------------|-----------------|-------------|----------------|---------------------------|
