@@ -27,8 +27,8 @@
 
 ![USP](https://github.com/user-attachments/assets/6fc488a2-d893-4205-b1e7-4b1b37270ed9)
 
-## **UNIQUENESS**
-1. **Lower Internet Consumption:**
+## **UNIQUENESS OF OUR SOLUTION**
+1. **Lower Internet Consumption:(research is given below)**
    - Provides remote online classes using just **60-100 MB** of data per hour, compared to typical 600 MB-1 GB.
 2. **Adaptive Learning Quiz Module:**
    - Developed an adaptive learning quiz system where the difficulty of the next question is determined by previously answered questions.
