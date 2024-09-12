@@ -6,9 +6,8 @@
 ## **Some Considerations before we begin**
 - We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
 - **We have divided our project into 2 parts**
-- 
-1)Live recorded ( low latency streaming) of video lectures Module
-2) VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption)  .
+- 1)Live recorded ( low latency streaming) of video lectures Module
+- 2) VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption)  .
 
 
 ## **OUR FOCUS**
