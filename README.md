@@ -178,6 +178,8 @@ Our platform includes advanced AI-generated resources to enhance the educational
 
 Present Models how they generate content(all Rag based)
 ![flowchartmodel](https://github.com/user-attachments/assets/6984ad58-a8f6-4c5c-97b7-e05591f28ebf)
+![image](https://github.com/user-attachments/assets/ad53640d-70c4-4c32-ae6f-fb637f4b0e7a)
+
 ![notesmodel](https://github.com/user-attachments/assets/0ba94766-0a20-474f-8861-cc4dcaa31e33)
 
 
