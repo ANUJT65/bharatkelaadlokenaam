@@ -174,10 +174,11 @@ Our platform includes advanced AI-generated resources to enhance the educational
 - We transitioned to advanced LLMs like LLAMA and Gemini for better performance.
 - We have gone from T5, to BERT to Mistral7B to Groq LLAMA and Gemini.
 - So entire process of research has been done to get the best mcqs
+## Questions model
 ![questionsmodel](https://github.com/user-attachments/assets/d78be147-b92e-44e2-9533-648f8a58f121)
 
 Present Models how they generate content(all Rag based)
-### Flow diagram and Image Generation module
+### Flow diagram and Image Generation module[RAGs based]
 
 ![FLOWFLOW](https://github.com/user-attachments/assets/ac51465c-f38a-4cb9-b247-ab03fce91b30)
 
