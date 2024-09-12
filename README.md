@@ -1,7 +1,7 @@
 
 
 # **Bharat Ke Laadlo Ke Naam Prastut GramShiksha: Providing Fast Education To Remotest Places**  
-**Low-Bandwidth Solutions for Interactive Education**
+**Problem Statement??**
 ![Theme](https://github.com/user-attachments/assets/a52986d6-b3e1-421b-8366-5216c4ca3bc7)
 
 ## **Some Considerations before we begin**
