@@ -176,6 +176,10 @@ Our platform includes advanced AI-generated resources to enhance the educational
 - So entire process of research has been done to get the best mcqs
 ![questionsmodel](https://github.com/user-attachments/assets/d78be147-b92e-44e2-9533-648f8a58f121)
 
+Present Models how they generate content(all Rag based)
+![flowchartmodel](https://github.com/user-attachments/assets/6984ad58-a8f6-4c5c-97b7-e05591f28ebf)
+![notesmodel](https://github.com/user-attachments/assets/0ba94766-0a20-474f-8861-cc4dcaa31e33)
+
 
 ### **Business Aspects and Cost Analysis**
 
