@@ -16,13 +16,17 @@
 
 Our platform uniquely addresses data consumption issues, which is a major concern in remote education:
 
-- **Screen Sharing Optimization:** In typical platforms, data usage spikes due to frequent updates in screen sharing. We have identified that the majority of data is consumed during screen sharing, which is updated every second or more frequently. However, in the case of PowerPoint presentations, slides are not changed as rapidly.
+- **Screen Sharing Optimization:**
+ In typical platforms, data usage spikes due to frequent updates in screen sharing. We have identified that the majority of data is consumed during screen sharing, which is updated every second or more frequently. However, in the case of PowerPoint presentations, slides are not changed as rapidly.
   
-- **Pre-Downloaded PowerPoint Slides:** To optimize data usage, our solution pre-downloads the PowerPoint slides and broadcasts only the slide number that changes. This approach significantly reduces the data required for streaming. The slide number update is communicated through WebSocket, ensuring that the React app synchronizes to the corresponding slide efficiently.
+- **Pre-Downloaded PowerPoint Slides:** 
+To optimize data usage, our solution pre-downloads the PowerPoint slides and broadcasts only the slide number that changes. This approach significantly reduces the data required for streaming. The slide number update is communicated through WebSocket, ensuring that the React app synchronizes to the corresponding slide efficiently.
   
-- **Audio Streaming through WebRTC:** We use WebRTC for audio streaming, which ensures low latency and high-quality audio while minimizing data consumption.
+- **Audio Streaming through WebRTC:**
+ We use WebRTC for audio streaming, which ensures low latency and high-quality audio while minimizing data consumption.
   
-- **Jamboard Integration:** A streamlined version of Jamboard is included on the right side of the screen to assist teachers in explaining the content of the PowerPoint. This addition ensures that while the slides provide the primary content, the Jamboard supports interactive explanations.
+- **Jamboard Integration:** 
+A streamlined version of Jamboard is included on the right side of the screen to assist teachers in explaining the content of the PowerPoint. This addition ensures that while the slides provide the primary content, the Jamboard supports interactive explanations.
 
 By focusing on these optimizations, we ensure that data usage remains minimal, with most streaming happening at low latency and with low data consumption.
 
