@@ -8,13 +8,6 @@
 - We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
 - Our Understanding is that we are providing remote education to students until government has enough data on student demographics/attendance etc to provide proper infrastructure to the students.
 
-## **With these things in mind We have divided our project into 2 parts**
-- **1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.**
-- Here students will just join classroom and teacher would teach like in a regular meet but through low data consumption and better human interaction.
-- **2)PreRecorded Lecture VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption)**
-- Here there is loads of ai generated resources, engagement enhancing resources which generate interests in learning and all given through lowest data consumption on a prerecorded lecture.
-
-
 ## **OUR FOCUS**
 
 1. **Provide AI-Generated Resources:** Provide a one-stop solution for teachers and students with AI-generated resources, saving time and cost compared to physical resources.
@@ -22,6 +15,14 @@
 3. **Enhance Engagement(MAJOR PROBLEM IN ONLINE EDUCATION):** Even if we provide all resources , many students dont really utilize these things, so we have various modules to encourage students to learn.
 4. **Identify At-Risk Students:** Help identify students who are weaker, have lower attendance, or are at risk of dropping out and improve engagement by 1 on 1 counselling by teachers.
 5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation.
+
+
+
+## **With these things in mind We have divided our project into 2 parts**
+- **1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.**
+- Here students will just join classroom and teacher would teach like in a regular meet but through low data consumption and better human interaction.
+- **2)PreRecorded Lecture VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption)**
+- Here there is loads of ai generated resources, engagement enhancing resources which generate interests in learning and all given through lowest data consumption on a prerecorded lecture.
 
 ## **Our Unique Selling Proposition (USP)**
 
