@@ -6,14 +6,121 @@
 
 
 
-## **PROBLEM STATEMENT**
-![focus](https://github.com/user-attachments/assets/1ac367d5-52b7-4f04-a56a-8f52986b34fa)
+# Comparison of Our Platform with Google Meet
 
+**Optimized for Low Data Usage and Enhanced Remote Education**
 
-- **Inadequate Educational Infrastructure:** Rural areas in India lack sufficient physical infrastructure such as classrooms and facilities, which limits access to quality education.
-- **Limited Internet Connectivity:** Not all villages and towns in India have access to 4G networks or even 3G in some cases.
-- **Insufficient Resources:** Schools in rural areas often struggle to provide up-to-date resources, which affects their education quality.
-- **User Engagement:** Even if online resources are provided, maintaining student engagement is challenging.
+---
+
+## **How We Reduced Data Usage**
+
+Our platform uniquely addresses data consumption issues, which is a major concern in remote education:
+
+- **Screen Sharing Optimization:** In typical platforms, data usage spikes due to frequent updates in screen sharing. We have identified that the majority of data is consumed during screen sharing, which is updated every second or more frequently. However, in the case of PowerPoint presentations, slides are not changed as rapidly.
+  
+- **Pre-Downloaded PowerPoint Slides:** To optimize data usage, our solution pre-downloads the PowerPoint slides and broadcasts only the slide number that changes. This approach significantly reduces the data required for streaming. The slide number update is communicated through WebSocket, ensuring that the React app synchronizes to the corresponding slide efficiently.
+  
+- **Audio Streaming through WebRTC:** We use WebRTC for audio streaming, which ensures low latency and high-quality audio while minimizing data consumption.
+  
+- **Jamboard Integration:** A streamlined version of Jamboard is included on the right side of the screen to assist teachers in explaining the content of the PowerPoint. This addition ensures that while the slides provide the primary content, the Jamboard supports interactive explanations.
+
+By focusing on these optimizations, we ensure that data usage remains minimal, with most streaming happening at low latency and with low data consumption.
+
+---
+
+## **Data Usage Comparison**
+
+### **Google Meet**
+
+| **Type**           | **Latency** | **Low Quality (360p)** | **Standard Quality (480p)** | **High Quality (720p)** | **HD Quality (1080p)** |
+|--------------------|-------------|-------------------------|------------------------------|--------------------------|-------------------------|
+| **Video + Audio**  | ~500 ms      | ~0.6 GB to 1 GB per hour| ~1 GB to 1.5 GB per hour     | ~1.5 GB to 2.5 GB per hour| ~2.5 GB to 4 GB per hour|
+
+### **Our Platform**
+
+| **Technology**           | **Type**        | **Latency** | **Resolution** | **Data Usage (per hour)** |
+|--------------------------|-----------------|-------------|----------------|---------------------------|
+| **WebRTC Audio Only**    | Audio Only       | 100-300 ms   | N/A            | 30-60 MB                  |
+| **WebSocket Audio Only** | Audio Only       | 100-300 ms   | N/A            | 30-60 MB                  |
+| **WebRTC Video + Audio** | Video & Audio    | 100-500 ms   | 720p/1080p     | 1.5-6 GB                  |
+| **WebSocket Video + Audio** | Video & Audio | 100-500 ms   | 720p/1080p     | 1.5-6 GB                  |
+
+---
+
+## **Technology Comparison**
+
+| **Feature/Aspect**        | **FFmpeg**                              | **WebRTC**                                | **WebSocket**                           |
+|---------------------------|-----------------------------------------|-------------------------------------------|----------------------------------------|
+| **Primary Use**           | Media processing, encoding, decoding    | Real-time peer-to-peer communication      | Real-time client-server communication  |
+| **Communication Type**    | Typically client-server                 | Peer-to-peer                              | Client-server                          |
+| **Protocols Used**        | RTMP, RTP, HTTP, RTSP                    | UDP (primarily), TCP                      | TCP                                    |
+| **Latency**               | Moderate to high                        | Low latency                               | Low latency                             |
+| **Data Types Supported**  | Audio, video, subtitles, metadata       | Audio, video, arbitrary data              | Text, binary data                       |
+| **Security**              | Dependent on implementation             | Encrypted using Secure Real-Time Transport Protocol (SRTP) | Dependent on implementation (TLS can be used for encryption) |
+| **Scalability**           | High, depending on server capabilities  | Challenging at scale due to CPU and bandwidth demands | High, but requires careful management of state and connections |
+| **Reliability**           | High for media processing               | Less reliable with UDP (packet loss), more with TCP | High reliability with TCP               |
+
+---
+
+## **Advantages of Our Platform**
+
+1. **Optimized Data Usage:** Our platform reduces data consumption by pre-downloading PowerPoint slides and synchronizing slide changes via WebSocket. This minimizes the bandwidth impact of screen sharing.
+2. **Efficient Content Delivery:** Leveraging WebRTC for audio streaming and a streamlined Jamboard integration ensures a low-bandwidth, high-quality educational experience.
+3. **Low Bandwidth Requirements:** Designed for low-bandwidth environments, our platform provides a smooth educational experience even in remote areas.
+4. **High-Quality Playback:** Azure CDN ensures smooth video playback and reduces buffering.
+
+---
+
+## **Plan 1: Smartboard + Pre-Downloaded PPT + Audio**
+
+- **Overview:** Integrates WebSockets/WebRTC for audio streaming and pre-downloaded PowerPoint slides.
+- **Components:**
+  - **Audio Streaming:** WebSockets/WebRTC for low-latency audio.
+  - **PPT Slides:** Pre-downloaded slides with updates broadcasted via WebSocket.
+- **Implementation:** Students access audio and slides with minimal data usage. Changes in slides are efficiently communicated to the React app.
+- **Bandwidth Usage:**
+  - **Audio Only:** ~30 MB - 100 MB per hour.
+  - **PPT:** Minimal impact (pre-downloaded).
+
+---
+
+## **AI-Generated Resources**
+
+Our platform includes advanced AI-generated resources to enhance the educational experience:
+
+1. **Multiple Choice Questions (MCQs):** Adaptive MCQs generated based on lecture content, increasing in difficulty as the user progresses.
+2. **AI-Generated Notes:** Real-time note generation based on the ongoing lecture.
+3. **AI-Generated Flow Diagrams and Process Flows:** Summarized and generated using nodes and connections for clear visualizations.
+4. **Doubt Solving Chatbot:** RAG-based chatbot for addressing questions related to lecture content.
+5. **Image Visualizations:** AI-generated visualizations to support lecture content understanding.
+
+### **Previous Methodology**
+
+Previously, NLP-based methods were used for question generation, but they were resource-intensive and less accurate. We transitioned to advanced LLMs like LLAMA and Gemini for better performance.
+
+### **Cost Effectiveness**
+
+- **AI-Generated Resources:** Created once and stored in Azure Blob Storage and MongoDB Atlas, reducing repeated generation costs and optimizing resource usage.
+- **Storage Costs:** Utilizing Azure Blob and MongoDB Atlas for efficient and cost-effective storage.
+
+### **SaaS Pass Model**
+
+- **Subscription-Based Access:** Offers predictable costs and scalability for educational institutions.
+- **Reduced Bandwidth Costs:** Optimized data usage lowers operational costs, making it a cost-effective solution for remote education.
+
+---
+
+## **Advantages of Azure CDN for Remote Education**
+
+1. **Global Reach:** Efficient content delivery worldwide, including remote areas.
+2. **Low Latency:** Reduces delays and buffering, providing smooth access to educational content.
+3. **Scalability:** Supports large traffic volumes and spikes.
+4. **High Availability:** Ensures reliable access to resources with minimal downtime.
+5. **Cost Efficiency:** Lowers bandwidth and infrastructure costs.
+
+---
+
+For more information, please contact us or visit our website.
 
 ## **OBJECTIVES**
 1. **Identify At-Risk Students:** Help identify students who are weaker, have lower attendance, or are at risk of dropping out and improve engagement.
