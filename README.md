@@ -20,9 +20,10 @@
 
 - ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
 
-## **METHODOLOGY TECH STACK(For low latency research details scroll down, we have a great innovation)**
+## **METHODOLOGY TECH STACK**
 
 ![Methodology](https://github.com/user-attachments/assets/5b56e547-4583-4d5e-9377-bd0b735ef766)
+## (For low latency research details scroll down, we have a great innovation)
 
 
 ## **UNIQUENESS**
