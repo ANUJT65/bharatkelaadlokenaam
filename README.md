@@ -17,20 +17,10 @@
 
 - ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
 
-## **METHODOLOGY TECH STACK**
+## **METHODOLOGY TECH STACK(For low latency research details scroll down, we have a great innovation)**
 
 ![Methodology](https://github.com/user-attachments/assets/5b56e547-4583-4d5e-9377-bd0b735ef766)
 
-- **TECH STACK Description**
-- **Web Development:**
-  - **Technologies:** Next.js, Flask, Tailwind CSS
-- **Generative AI / Machine Learning:**
-  - **Models:** Whisper Speech-to-Text, Azure Image Captioning, Mistral 7B LLM, Scikit Learn, Gemini, LangChain, Chroma
-- **Low Latency Smart Board:**
-  - **Technologies:** WebSockets/WebRTC for audio streaming, pre-downloaded PPT slides
-- **Deployment:**
-  - **Platforms:** Azure CDN, Docker, Vector DB Atlas, Azure App Services
-  - **Database:** MongoDB Atlas, Chroma
 
 ## **UNIQUENESS**
 1. **Lower Internet Consumption:** Provides remote online classes using just 60-100 MB of data per hour, significantly less than the typical 600 MB-1 GB.
