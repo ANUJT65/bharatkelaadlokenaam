@@ -4,6 +4,74 @@
 **Low-Bandwidth Solutions for Interactive Education**
 
 
+## **OUR FOCUS**
+
+1. **Enhance Resource Access:** Improve access to quality resources for children in rural areas.
+2. **Implement Low-Internet Services:** Develop solutions that function well with limited internet connectivity.
+3. **AI-Generated Resources:** Provide a one-stop solution for teachers and students with AI-generated resources, saving time and cost compared to physical resources.
+4. **Identify At-Risk Students:** Help identify students who are weaker, have lower attendance, or are at risk of dropping out and improve engagement by 1 on 1 counselling by teachers.
+5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation.
+
+
+## **ARCHITECTURE AND USE CASES**
+
+- ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
+
+## **METHODOLOGY TECH STACK**
+
+![Methodology](https://github.com/user-attachments/assets/5b56e547-4583-4d5e-9377-bd0b735ef766)
+
+- **TECH STACK Description**
+- **Web Development:**
+  - **Technologies:** Next.js, Flask, Tailwind CSS
+- **Generative AI / Machine Learning:**
+  - **Models:** Whisper Speech-to-Text, Azure Image Captioning, Mistral 7B LLM, Scikit Learn, Gemini, LangChain, Chroma
+- **Low Latency Smart Board:**
+  - **Technologies:** WebSockets/WebRTC for audio streaming, pre-downloaded PPT slides
+- **Deployment:**
+  - **Platforms:** Azure CDN, Docker, Vector DB Atlas, Azure App Services
+  - **Database:** MongoDB Atlas, Chroma
+
+## **UNIQUENESS**
+1. **Lower Internet Consumption:** Provides remote online classes using just 60-100 MB of data per hour, significantly less than the typical 600 MB-1 GB.
+2. **Adaptive Learning Quiz Module:** Developed an adaptive learning quiz system where the difficulty of the next question is determined by the accuracy of previously answered questions.
+3. **Individual Attention and Counseling:** Focus on weaker students through engagement, score, and attendance analytics. Offers 1-to-1 counseling by teachers and doubt sessions.
+4. **Visualization of Key Concepts:** Generation of images related to key concepts taught in the video, helping students visualize key points.
+5. **After-Class Comprehensive Notes:** Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
+6. **Doubts Assistant and Career Guidance Companion:**
+   - **Chatbot:** Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
+   - **Career Guidance AI Avatar:** Helps students in choosing careers and assists in personality development.
+
+## **DEPENDENCIES**
+- **Cost Management:** Ensuring that the cost for the platform remains manageable. Most materials like MCQs, images, and notes are generated once and stored in Azure Blob and MongoDB Atlas while videos are uploading.
+- **Scalability:** Ensuring that databases are deployed on the cloud to balance user load and maintain system scalability.
+
+## **REFERENCES**
+1. [AI-Generated Resources and Utilization](https://docs.google.com/document/d/14re6fryT5AbtQjucr57YsmUxMyIjwWaGiusrRAzYcGs/edit?addon_store)
+2. [Bandwidth Reduction and Low Latency Streaming](https://docs.google.com/document/d/1nz2BZhKVGAW2OFdqejp5t70CiXt33XkHybpRM6g80zU/edit)
+
+## **BUSINESS RELEVANCE**
+- **PaaS:** Our software can function as a Platform as a Service (PaaS) option for low-latency internet networks in rural India.
+- **SaaS:** The Engagement Enhancer Module can be integrated into smaller edtech platforms and educational institutions as APIs, tailored to their needs.
+
+## **FUTURE WORK**
+- **WebSocket/RTC and ML Integration:** Integrate WebRTC and ML-based models in cameras before videos are sent over the internet. Where full software integration is not possible, models can be used separately with existing services.
+
+
+## **DEMO VIDEO**
+(Watch the demo video on 2X speed if you prefer.t.)
+- **Demo Video:** [Watch the demo video](https://www.youtube.com/watch?v=6yJG-DD2b1E)
+
+- IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
+
+[![Watch the demo video]![thumbnail](https://github.com/user-attachments/assets/4a081e46-4828-4e7f-9201-dcf3829fd572)
+()](https://www.youtube.com/watch?v=6yJG-DD2b1E)
+
+## **PPT LINK: Edu-connect Prototype**
+- [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1FqkkNUAilG22GKpzLw2jHc6gS9xH3AO7hKw9quA5CWw/edit#slide=id.g78bebef4de_0_41)
+
+
+
 
 ## OUR RESEARCH ON LOW LATENCY VIDEO STREAMING
 # Comparison of Our Platform with Google Meet
@@ -75,7 +143,7 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 
 ---
 
-## **Plan 1: Smartboard + Pre-Downloaded PPT + Audio**
+## **Plan Part 1 : Smartboard + Pre-Downloaded PPT + Audio**
 
 - **Overview:** Integrates WebSockets/WebRTC for audio streaming and pre-downloaded PowerPoint slides.
 - **Components:**
@@ -87,16 +155,30 @@ Our platform uniquely addresses data consumption issues, which is a major concer
   - **PPT:** Minimal impact (pre-downloaded).
 
 ---
+## **Plan part 2 : Enagement Enhancer Module**
+- SO After live stream teacher will upload the lecture  where azure cdn and engagement enhancer module will come to play
+
+## **Advantages of Azure CDN for Remote Education for downloading of video/playback of video**
+
+1. **Global Reach:** Efficient content delivery worldwide, including remote areas.
+2. **Low Latency:** Reduces delays and buffering, providing smooth access to educational content.
+3. **Scalability:** Supports large traffic volumes and spikes.
+4. **High Availability:** Ensures reliable access to resources with minimal downtime.
+5. **Cost Efficiency:** Lowers bandwidth and infrastructure costs.
+
 
 ## **AI-Generated Resources**
 
 Our platform includes advanced AI-generated resources to enhance the educational experience:
 
-1. **Multiple Choice Questions (MCQs):** Adaptive MCQs generated based on lecture content, increasing in difficulty as the user progresses.
+1. **Adaptive MCQS Which track Engagement throughout the videos:** Adaptive MCQs generated based on lecture content, increasing in difficulty as the user progresses.
 2. **AI-Generated Notes:** Real-time note generation based on the ongoing lecture.
 3. **AI-Generated Flow Diagrams and Process Flows:** Summarized and generated using nodes and connections for clear visualizations.
 4. **Doubt Solving Chatbot:** RAG-based chatbot for addressing questions related to lecture content.
 5. **Image Visualizations:** AI-generated visualizations to support lecture content understanding.
+
+
+
 
 ### **Previous Methodology**
 
@@ -114,86 +196,9 @@ Previously, NLP-based methods were used for question generation, but they were r
 
 ---
 
-## **Advantages of Azure CDN for Remote Education**
 
-1. **Global Reach:** Efficient content delivery worldwide, including remote areas.
-2. **Low Latency:** Reduces delays and buffering, providing smooth access to educational content.
-3. **Scalability:** Supports large traffic volumes and spikes.
-4. **High Availability:** Ensures reliable access to resources with minimal downtime.
-5. **Cost Efficiency:** Lowers bandwidth and infrastructure costs.
-
----
 
 For more information, please contact us or visit our website.
-
-## **OBJECTIVES**
-1. **Identify At-Risk Students:** Help identify students who are weaker, have lower attendance, or are at risk of dropping out and improve engagement.
-2. **Enhance Resource Access:** Improve access to quality resources for children in rural areas.
-3. **Implement Low-Internet Services:** Develop solutions that function well with limited internet connectivity.
-4. **AI-Generated Resources:** Provide a one-stop solution for teachers and students with AI-generated resources, saving time and cost compared to physical resources.
-5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation.
-
-
-## **ARCHITECTURE AND USE CASES**
-
-- ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
-
-## **METHODOLOGY TECH STACK**
-
-![Methodology](https://github.com/user-attachments/assets/5b56e547-4583-4d5e-9377-bd0b735ef766)
-
-- **TECH STACK Description**
-- **Web Development:**
-  - **Technologies:** Next.js, Flask, Tailwind CSS
-- **Generative AI / Machine Learning:**
-  - **Models:** Whisper Speech-to-Text, Azure Image Captioning, Mistral 7B LLM, Scikit Learn, Gemini, LangChain, Chroma
-- **Low Latency Smart Board:**
-  - **Technologies:** WebSockets/WebRTC for audio streaming, pre-downloaded PPT slides
-- **Deployment:**
-  - **Platforms:** Azure CDN, Docker, Vector DB Atlas, Azure App Services
-  - **Database:** MongoDB Atlas, Chroma
-
-## **UNIQUENESS**
-1. **Lower Internet Consumption:** Provides remote online classes using just 60-100 MB of data per hour, significantly less than the typical 600 MB-1 GB.
-2. **Adaptive Learning Quiz Module:** Developed an adaptive learning quiz system where the difficulty of the next question is determined by the accuracy of previously answered questions.
-3. **Individual Attention and Counseling:** Focus on weaker students through engagement, score, and attendance analytics. Offers 1-to-1 counseling by teachers and doubt sessions.
-4. **Visualization of Key Concepts:** Generation of images related to key concepts taught in the video, helping students visualize key points.
-5. **After-Class Comprehensive Notes:** Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
-6. **Doubts Assistant and Career Guidance Companion:**
-   - **Chatbot:** Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
-   - **Career Guidance AI Avatar:** Helps students in choosing careers and assists in personality development.
-
-## **DEPENDENCIES**
-- **Cost Management:** Ensuring that the cost for the platform remains manageable. Most materials like MCQs, images, and notes are generated once and stored in Azure Blob and MongoDB Atlas while videos are uploading.
-- **Scalability:** Ensuring that databases are deployed on the cloud to balance user load and maintain system scalability.
-
-## **REFERENCES**
-1. [AI-Generated Resources and Utilization](https://docs.google.com/document/d/14re6fryT5AbtQjucr57YsmUxMyIjwWaGiusrRAzYcGs/edit?addon_store)
-2. [Bandwidth Reduction and Low Latency Streaming](https://docs.google.com/document/d/1nz2BZhKVGAW2OFdqejp5t70CiXt33XkHybpRM6g80zU/edit)
-
-## **BUSINESS RELEVANCE**
-- **PaaS:** Our software can function as a Platform as a Service (PaaS) option for low-latency internet networks in rural India.
-- **SaaS:** The Engagement Enhancer Module can be integrated into smaller edtech platforms and educational institutions as APIs, tailored to their needs.
-
-## **FUTURE WORK**
-- **WebSocket/RTC and ML Integration:** Integrate WebRTC and ML-based models in cameras before videos are sent over the internet. Where full software integration is not possible, models can be used separately with existing services.
-
-
-## **DEMO VIDEO**
-(Watch the demo video on 2X speed if you prefer.t.)
-- **Demo Video:** [Watch the demo video](https://www.youtube.com/watch?v=6yJG-DD2b1E)
-
-- IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
-
-[![Watch the demo video]![thumbnail](https://github.com/user-attachments/assets/4a081e46-4828-4e7f-9201-dcf3829fd572)
-()](https://www.youtube.com/watch?v=6yJG-DD2b1E)
-
-## **PPT LINK: Edu-connect Prototype**
-- [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1FqkkNUAilG22GKpzLw2jHc6gS9xH3AO7hKw9quA5CWw/edit#slide=id.g78bebef4de_0_41)
-
-
-
-
 
 
 ## **System Architecture**
@@ -265,83 +270,7 @@ For more information, please contact us or visit our website.
   - **[Chroma](https://chroma.com/):** For vector-based data storage and retrieval.
 
 ---
-
-## **Unique Features**
-
-1. **Low Internet Consumption:** Optimized content delivery for low-bandwidth environments.
-2. **Adaptive Learning Module:** Customizes quiz difficulty to individual needs.
-3. **Personalized Attention:** Provides detailed analytics for tailored support.
-4. **Visualization Tools:** AI-generated images and notes to enhance learning.
-5. **Custom Flowcharts:** Summarizes content visually for better comprehension.
-
----
-
-## **Plans for Remote Education**
-
-### **Plan 1: Smartboard + Pre-Downloaded PPT + Audio**
-
-- **Components:** WebSockets/WebRTC for audio; smartboard for PPT slides.
-- **Implementation:** Audio streaming with pre-downloaded slides.
-- **Advantages:** Low bandwidth, no live slide synchronization needed, high-quality playback via CDN.
-
-### **Plan 2: Real-Time Online Classes with WebRTC/FFmpeg**
-
-- **Components:** WebRTC for live streaming; FFmpeg for encoding.
-- **Implementation:** Real-time interaction with no slide synchronization.
-- **Advantages:** Interactive experience with minimal latency.
-
----
-
-## **Technology Comparison**
-
-### **FFmpeg vs. WebRTC vs. WebSocket**
-
-- **FFmpeg:** Media processing, moderate latency, high scalability, and reliability.
-- **WebRTC:** Real-time peer-to-peer communication, low latency, encrypted, challenging scalability.
-- **WebSocket:** Real-time client-server communication, low latency, high reliability with TCP.
-
-### **Data Usage Comparison**
-
-| **Technology** | **Type**        | **Latency** | **Resolution** | **Data Usage (per hour)** |
-|----------------|-----------------|-------------|----------------|---------------------------|
-| Google Meet    | Video + Audio   | 500 ms       | 360p-1080p     | 0.6-4 GB                  |
-| WebRTC         | Video + Audio   | 100-500 ms   | 720p/1080p     | 1.5-6 GB                  |
-| WebSocket      | Video + Audio   | 100-500 ms   | 720p/1080p     | 1.5-6 GB                  |
-
----
-
-## **Advantages of Azure CDN**
-
-- **Global Reach:** Efficient content delivery worldwide.
-- **Low Latency:** Reduces delays and buffering.
-- **Scalability:** Handles large traffic volumes.
-- **High Availability:** Reliable access, minimizing downtime.
-- **Cost Efficiency:** Reduces bandwidth and infrastructure costs.
-
----
-
-## **Reducing Data Usage**
-
-- **Issue:** High data usage during screen sharing.
-- **Solution:** Pre-download PPTs and use a single variable slide number broadcasted via WebSocket.
-
----
-
-## **AI-Generated Resources**
-
-- **Multiple Choice Questions:** Adaptive difficulty based on lecture content.
-- **AI-Generated Notes:** Summarized notes based on lectures.
-- **AI-Generated Flow Diagrams:** Summarized and keyword-limited diagrams.
-- **Doubt Solving Chatbot:** RAG-based chatbot for lecture-related doubts.
-- **Image Visualizations:** Automated visual aids.
-
----
-
-## **Previous Methodology**
-
-- **Old Approach:** NLP-based question generation was resource-intensive and inaccurate.
-- **New Approach:** LLMs like LLAMA and Gemini for improved results.
-
+=
 ---
 
 ## **Business Relevance**
@@ -366,9 +295,6 @@ For more information, please contact us or visit our website.
 
 - **Advanced Integration:** Explore AR and gamified learning tools for enhanced educational experiences.
 
-### **Expansion to Additional Tools**
-
-- **New AI Models:** Integrate new tools and models to further enhance learning and engagement.
 
 ---
 
