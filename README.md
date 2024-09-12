@@ -159,13 +159,13 @@ Our platform includes advanced AI-generated resources to enhance the educational
 
 ### **Previous Methodology(OUR TRIAL AND ERROR )**
 
-Previously, NLP-based methods were used for question generation, but they were resource-intensive and less accurate. 
-We transitioned to advanced LLMs like LLAMA and Gemini for better performance.
-We have gone from T5, to BERT to Mistral7B to Groq LLAMA and Gemini.
-So entire process of research has been done to get the best mcqs
+- Previously, NLP-based methods were used for question generation, but they were resource-intensive and less accurate. 
+- We transitioned to advanced LLMs like LLAMA and Gemini for better performance.
+- We have gone from T5, to BERT to Mistral7B to Groq LLAMA and Gemini.
+- So entire process of research has been done to get the best mcqs
 ![questionsmodel](https://github.com/user-attachments/assets/d78be147-b92e-44e2-9533-648f8a58f121)
 
-### **Cost Effectiveness**
+### **Cost Effectiveness ALL RESOURCES ARE GENERATED ONLY ONCE WHEN VIDEO IS UPLOADED TO SAVE COSTS**
 
 - **AI-Generated Resources:** Created once and stored in Azure Blob Storage and MongoDB Atlas, reducing repeated generation costs and optimizing resource usage.
 - **Storage Costs:** Utilizing Azure Blob and MongoDB Atlas for efficient and cost-effective storage.
