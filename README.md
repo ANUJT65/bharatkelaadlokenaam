@@ -16,6 +16,17 @@
 
 ![USP](https://github.com/user-attachments/assets/6fc488a2-d893-4205-b1e7-4b1b37270ed9)
 
+## **UNIQUENESS**
+1. **Lower Internet Consumption:** Provides remote online classes using just 60-100 MB of data per hour, significantly less than the typical 600 MB-1 GB.
+2. **Adaptive Learning Quiz Module:** Developed an adaptive learning quiz system where the difficulty of the next question is determined by the accuracy of previously answered questions.
+3. **Individual Attention and Counseling:** Focus on weaker students through engagement, score, and attendance analytics. Offers 1-to-1 counseling by teachers and doubt sessions.
+4. **Visualization of Key Concepts:** Generation of images related to key concepts taught in the video, helping students visualize key points.
+5. **After-Class Comprehensive Notes:** Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
+6. **Doubts Assistant and Career Guidance Companion:**
+   - **Chatbot:** Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
+   - **Career Guidance AI Avatar:** Helps students in choosing careers and assists in personality development.
+
+
 ## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN)**
 
 - ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
@@ -26,15 +37,6 @@
 ## (For low latency research details scroll down, we have a great innovation)
 
 
-## **UNIQUENESS**
-1. **Lower Internet Consumption:** Provides remote online classes using just 60-100 MB of data per hour, significantly less than the typical 600 MB-1 GB.
-2. **Adaptive Learning Quiz Module:** Developed an adaptive learning quiz system where the difficulty of the next question is determined by the accuracy of previously answered questions.
-3. **Individual Attention and Counseling:** Focus on weaker students through engagement, score, and attendance analytics. Offers 1-to-1 counseling by teachers and doubt sessions.
-4. **Visualization of Key Concepts:** Generation of images related to key concepts taught in the video, helping students visualize key points.
-5. **After-Class Comprehensive Notes:** Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
-6. **Doubts Assistant and Career Guidance Companion:**
-   - **Chatbot:** Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
-   - **Career Guidance AI Avatar:** Helps students in choosing careers and assists in personality development.
 
 
 ## OUR RESEARCH ON LOW LATENCY VIDEO STREAMING
@@ -134,6 +136,7 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 ## **AI-Generated Resources**
 
 Our platform includes advanced AI-generated resources to enhance the educational experience:
+**We are applying RAGs on the transcription of the video + on the captions from video so that we can get better ai generated resources, you could even see in architecture diagram so all resources are generated using this, ensuring accuracy**
 
 1. **Adaptive MCQS Which track Engagement throughout the videos:** Adaptive MCQs generated based on lecture content, increasing in difficulty as the user progresses.
 2. **AI-Generated Notes:** Real-time note generation based on the ongoing lecture.
