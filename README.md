@@ -28,19 +28,19 @@
 
 ## **UNIQUENESS**
 1. **Lower Internet Consumption:**
-- Provides remote online classes using just **60-100 MB** of data per hour, significantly less than the typical 600 MB-1 GB.
+   - Provides remote online classes using just **60-100 MB** of data per hour, compared to typical 600 MB-1 GB.
 2. **Adaptive Learning Quiz Module:**
--  Developed an adaptive learning quiz system where the difficulty of the next question is determined by the accuracy of previously answered questions.
+   - Developed an adaptive learning quiz system where the difficulty of the next question is determined by previously answered questions.
 3. **Individual Attention and Counseling:**
--  Focus on weaker students through engagement, score, and attendance analytics. Offers 1-to-1 counseling by teachers and doubt sessions.
+   - Focus on weaker students through engagement, score, and attendance analytics. Offers 1-to-1 counseling and doubt sessions.
 4. **Visualization of Key Concepts:**
--  Generation of images related to key concepts taught in the video, helping students visualize key points.
+   - Generation of images related to key concepts, helping students visualize key points.
 5. **After-Class Comprehensive Notes:**
-- Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
-6. **Rags based Doubts Assistant**
-- Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
+   - Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
+6. **RAG-Based Doubt Assistant:**
+   - Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
 7. **Vocational Learning AI Avatar:**
-- Helps students in choosing careers and assists in personality development as well as in vocational learning.
+   - Helps students choose careers, assists in personality development, and vocational learning.
 
 
 ## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN)**
