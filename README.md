@@ -158,7 +158,11 @@ Our platform includes advanced AI-generated resources to enhance the educational
 4. **Doubt Solving Chatbot:** RAG-based chatbot for addressing questions related to lecture content.
 5. **Image Visualizations:** AI-generated visualizations to support lecture content understanding.
 6. **Vocational Learning/Tests through AI Avatar Chatbot:** AI avatar teacher which would give insights on basis of tone of students and also responses given by them to the questions posed by ai avatar module great for personality development.
-   
+   ![quizsystem](https://github.com/user-attachments/assets/dd7965c1-5249-4c91-97e6-9d1ad21d77c5)
+   ![summarygen](https://github.com/user-attachments/assets/84d1fb47-fc9e-4b5e-b56b-a454566371a3)
+   ![doubtsassistant](https://github.com/user-attachments/assets/9d75218d-5eb6-4210-8cdf-30266c862b7e)
+   ![engagement analysis](https://github.com/user-attachments/assets/be37fde9-1e05-48dc-8794-037ed6e177c8)
+
 
 ### **Previous Methodology(OUR TRIAL AND ERROR )**
 
