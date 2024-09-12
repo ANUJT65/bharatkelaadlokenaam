@@ -37,7 +37,7 @@
 -  Generation of images related to key concepts taught in the video, helping students visualize key points.
 5. **After-Class Comprehensive Notes:**
 - Streamlined post-lecture review with AI-generated class notes, mind maps, and flowcharts.
-6. **Doubts Assistant and Career Guidance Companion:**
+6. **Rags based Doubts Assistant**
 - Introduce a RAG-based chatbot trained on platform content to swiftly address student queries.
 7. **Vocational Learning AI Avatar:**
 - Helps students in choosing careers and assists in personality development as well as in vocational learning.
