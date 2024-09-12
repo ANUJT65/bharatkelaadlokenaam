@@ -177,8 +177,9 @@ Our platform includes advanced AI-generated resources to enhance the educational
 ![questionsmodel](https://github.com/user-attachments/assets/d78be147-b92e-44e2-9533-648f8a58f121)
 
 Present Models how they generate content(all Rag based)
-![flowchartmodel](https://github.com/user-attachments/assets/6984ad58-a8f6-4c5c-97b7-e05591f28ebf)
-![image](https://github.com/user-attachments/assets/ad53640d-70c4-4c32-ae6f-fb637f4b0e7a)
+### **Flow diagram and Image Generation module
+
+![FLOWFLOW](https://github.com/user-attachments/assets/ac51465c-f38a-4cb9-b247-ab03fce91b30)
 
 ![notesmodel](https://github.com/user-attachments/assets/0ba94766-0a20-474f-8861-cc4dcaa31e33)
 
