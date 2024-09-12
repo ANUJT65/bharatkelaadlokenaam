@@ -157,10 +157,13 @@ Our platform includes advanced AI-generated resources to enhance the educational
 
 
 
-### **Previous Methodology**
+### **Previous Methodology(OUR TRIAL AND ERROR )**
 
-Previously, NLP-based methods were used for question generation, but they were resource-intensive and less accurate. We transitioned to advanced LLMs like LLAMA and Gemini for better performance.
-
+Previously, NLP-based methods were used for question generation, but they were resource-intensive and less accurate. 
+We transitioned to advanced LLMs like LLAMA and Gemini for better performance.
+We have gone from T5, to BERT to Mistral7B to Groq LLAMA and Gemini.
+So entire process of research has been done to get the best mcqs
+![questionsmodel](https://github.com/user-attachments/assets/d78be147-b92e-44e2-9533-648f8a58f121)
 
 ### **Cost Effectiveness**
 
