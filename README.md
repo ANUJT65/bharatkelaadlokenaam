@@ -15,7 +15,7 @@
 ## **USP**
 ![USP](https://github.com/user-attachments/assets/3af699d9-1a28-448e-af89-da6163f4cdb6)
 
-## **ARCHITECTURE AND USE CASES**
+## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN)**
 
 - ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
 
