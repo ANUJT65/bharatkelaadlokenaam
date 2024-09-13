@@ -149,6 +149,8 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 
 ## **Advantages of Azure CDN for Remote Education for downloading of video/playback of video and also for scalability**
 ![third-system](https://github.com/user-attachments/assets/918a98ae-1d87-447c-9be9-692177a9d1f9)
+![image](https://github.com/user-attachments/assets/25291503-26cd-418b-a743-5d0478009203)
+
 src: https://litebreeze.com/blog/2020/11/27/scaling-your-web-applications/
 
 1. **Global Reach:** Efficient content delivery worldwide, including remote areas.
