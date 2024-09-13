@@ -58,6 +58,14 @@
 
 ## **METHODOLOGY TECH STACK**
 ![Methodology](https://github.com/user-attachments/assets/d5598ff6-c4a0-471b-a174-9a364c344bf9)
+## **Technology Stack**
+
+- **Front-End:** Next.js, Tailwind CSS for dynamic, responsive UIs.
+- **Back-End:** Flask for scalable AI-driven backend.
+
+- **AI/ML:** Whisper for speech-to-text, Azure Image Captioning, Mistral 7B for MCQs, Scikit Learn, Gemini, LangChain, Chroma.
+
+- **Deployment:** Azure CDN, Docker for delivery and scaling; MongoDB Atlas for data; Azure App Services for hosting.
 
 
 ## (For low latency and low data consumption research details scroll down, we have a great innovation)
@@ -242,36 +250,5 @@ Present Models how they generate content(all Rag based)
 ## **PPT LINK: Edu-connect Prototype**
 - [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1FqkkNUAilG22GKpzLw2jHc6gS9xH3AO7hKw9quA5CWw/edit#slide=id.g78bebef4de_0_41)
 
-
-## **Technology Stack**
-
-### **Web Development**
-
-- **Front-End:** [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/)
-  - **Usage:** For server-side rendering, dynamic content, and responsive UI.
-- **Back-End:** [Flask](https://flask.palletsprojects.com/)
-  - **Usage:** For creating a scalable backend and integrating AI models.
-
-### **Generative AI / Machine Learning**
-
-- **Models:**
-  - **[Whisper](https://openai.com/research/whisper):** For speech-to-text transcription.
-  - **[Azure Image Captioning](https://learn.microsoft.com/en-us/azure/cognitive-services/computer-vision/overview):** For generating textual descriptions of images.
-  - **[Mistral 7B LLM](https://mistral.ai):** For creating multiple-choice questions (MCQs).
-  - **[Scikit Learn](https://scikit-learn.org/):** For machine learning algorithms in data analysis.
-  - **[Gemini](https://www.google.com/search/about/):** For advanced analytics and content generation.
-  - **[LangChain](https://www.langchain.com/):** For language model integration.
-  - **[Chroma](https://chroma.com/):** For vector-based data storage and retrieval.
-
-### **Deployment**
-
-- **Platforms:**
-  - **[Azure CDN](https://azure.microsoft.com/en-us/services/cdn/):** For efficient content delivery and low latency.
-  - **[Docker](https://www.docker.com/):** For application deployment and scaling.
-  - **[Vector DB Atlas](https://www.mongodb.com/atlas):** For managing vector-based data.
-  - **[Azure App Services](https://azure.microsoft.com/en-us/services/app-service/):** For hosting and managing the web application.
-- **Database:**
-  - **[MongoDB Atlas](https://www.mongodb.com/atlas):** For storing educational content and user data.
-  - **[Chroma](https://chroma.com/):** For vector-based data storage and retrieval.
 
 
