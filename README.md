@@ -8,7 +8,11 @@
 - We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
 - Our Understanding is that we are providing remote education to students until government has enough data on student demographics/attendance etc to provide proper infrastructure to the students.
 
-## **OUR FOCUS**
+## **WHAT ARE THE PROBLEMS??**
+![Problems](https://github.com/user-attachments/assets/1b7abfef-c1a0-4eae-84c3-88e3223171db)
+
+
+## **OUR FOCUS CONSIDERING THESE PROBLEMS**
 
 1. **Provide AI-Generated Resources:** Provide a one-stop solution for teachers and students with AI-generated resources, saving time and cost compared to physical resources.
 2. **Implement Low-Internet Services:** Develop solutions that function well with limited internet connectivity.
@@ -16,7 +20,7 @@
 4. **Identify At-Risk Students:** Help identify students who are weaker, have lower attendance, or are at risk of dropping out and improve engagement by 1 on 1 counselling by teachers.
 5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation by government
 
-![Problems](https://github.com/user-attachments/assets/1b7abfef-c1a0-4eae-84c3-88e3223171db)
+
 
 
 ## **With these things in mind We have divided our project into 2 parts**
