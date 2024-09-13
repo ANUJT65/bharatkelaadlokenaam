@@ -199,15 +199,17 @@ Our platform includes advanced AI-generated resources to enhance the educational
 6. **Vocational Learning/Tests through AI Avatar Chatbot:** AI avatar teacher which would give insights on basis of tone of students and also responses given by them to the questions posed by ai avatar module great for personality development.
 
 ## **Present Implementation**
-   ![quizsystem](https://github.com/user-attachments/assets/dd7965c1-5249-4c91-97e6-9d1ad21d77c5)
-   - Description : Quiz with difficulty and score at fixed duration of time all based on video content which is generated at fix interval of time so that student is always engaged
-   ![summarygen](https://github.com/user-attachments/assets/84d1fb47-fc9e-4b5e-b56b-a454566371a3)
-   - Description : Summary of content in the video till now+ image visualization wherits showing visualizations based off of stable diffusion model based on keywords in video
-   ![doubtsassistant](https://github.com/user-attachments/assets/9d75218d-5eb6-4210-8cdf-30266c862b7e)
-   - Description : Doubts assistant and feedback/doubt module in case something is not understood or some technical error occurs
+![quizsystem](https://github.com/user-attachments/assets/dd7965c1-5249-4c91-97e6-9d1ad21d77c5)
 
-   ![engagement analysis](https://github.com/user-attachments/assets/be37fde9-1e05-48dc-8794-037ed6e177c8)
-
+- Description : Quiz with difficulty and score at fixed duration of time all based on video content which is generated at fix interval of time so that student is always engaged
+![summarygen](https://github.com/user-attachments/assets/84d1fb47-fc9e-4b5e-b56b-a454566371a3)
+- Description : Summary of content in the video till now+ image visualization wherits showing visualizations based off of stable diffusion model based on keywords in video
+![doubtsassistant](https://github.com/user-attachments/assets/9d75218d-5eb6-4210-8cdf-30266c862b7e)
+- Description : Doubts assistant and feedback/doubt module in case something is not understood or some technical error occurs
+![engagement analysis](https://github.com/user-attachments/assets/be37fde9-1e05-48dc-8794-037ed6e177c8)
+- Description: Engagement analytics of each student is generated like where the exact time where they get it wrong is marked in the line chart
+- and how manythey get wrong is marked in pie chart.
+- From this teachers can get insights on where student is lacking or which topic is not understood by student.
 
 ### **Previous Methodology(OUR TRIAL AND ERROR/Research )**
 
