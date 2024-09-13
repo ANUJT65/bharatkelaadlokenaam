@@ -16,6 +16,7 @@
 4. **Identify At-Risk Students:** Help identify students who are weaker, have lower attendance, or are at risk of dropping out and improve engagement by 1 on 1 counselling by teachers.
 5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation by government
 
+![Problems](https://github.com/user-attachments/assets/1b7abfef-c1a0-4eae-84c3-88e3223171db)
 
 
 ## **With these things in mind We have divided our project into 2 parts**
