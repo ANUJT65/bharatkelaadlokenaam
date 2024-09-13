@@ -22,16 +22,18 @@
 
 
 
+
 ## **With these things in mind We have divided our project into 2 parts**
 - **1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.**
 - Here students will just join classroom and teacher would teach like in a regular meet but through low data consumption and better human interaction.
 - **2)PreRecorded Lecture VideoPlayback/Engagement Enhancer Module using Azure CDN( low data consumption)**
 - Here there is loads of ai generated resources, engagement enhancing resources which generate interests in learning and all given through lowest data consumption on a prerecorded lecture.
 
-## **Our Unique Selling Proposition (USP)**
+## **Our Unique Selling Propositions (USPs)**
+## FIRST
+![USP](https://github.com/user-attachments/assets/aafa9723-c2b1-4045-a1a0-e4e9f650b791)
 
-![USP](https://github.com/user-attachments/assets/6fc488a2-d893-4205-b1e7-4b1b37270ed9)
-
+## SECOND
 ![lowlatency](https://github.com/user-attachments/assets/b5523acc-8b3d-4441-89e0-ac4326f7a093)
 
 ## **UNIQUENESS OF OUR SOLUTION**
@@ -58,9 +60,7 @@
 ![Methodology](https://github.com/user-attachments/assets/570f010d-59ab-4e7d-aa0b-d7bc238f2644)
 
 
-## (For low latency research details scroll down, we have a great innovation)
-
-
+## (For low latency and low data consumption research details scroll down, we have a great innovation)
 
 
 ## OUR RESEARCH ON LOW LATENCY VIDEO STREAMING
