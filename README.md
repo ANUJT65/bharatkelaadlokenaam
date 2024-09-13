@@ -1,10 +1,9 @@
-
-
 # **GramShiksha: Providing Fast Education To Remotest Places**  
-**Problem Statement??**
+
+## **Problem Statement**
 ![Theme](https://github.com/user-attachments/assets/a52986d6-b3e1-421b-8366-5216c4ca3bc7)
 
-| #  | Section Title                                                                                                      |
+| #  | Index                                                                                                              |
 |----|--------------------------------------------------------------------------------------------------------------------|
 | 1  | [Problem Statement](#problem-statement)                                                                            |
 | 2  | [Some Considerations](#some-considerations-before-we-begin)                                                        |
@@ -39,9 +38,6 @@
 3. **Enhance Engagement(MAJOR PROBLEM IN ONLINE EDUCATION):** Even if we provide all resources , many students dont really utilize these things, so we have various modules to encourage students to learn.
 4. **Identify At-Risk Students:** Help identify students who are weaker, have lower attendance, or are at risk of dropping out and improve engagement by 1 on 1 counselling by teachers.
 5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation by government
-
-
-
 
 ## **With these things in mind We have divided our project into 2 parts**
 - **1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.**
@@ -83,7 +79,7 @@
 - **Front-End:** Next.js, Tailwind CSS for dynamic, responsive UIs.
 - **Back-End:** Flask for scalable AI-driven backend.
 
-- **AI/ML:** Whisper for speech-to-text, Azure Image Captioning, Mistral 7B for MCQs, Scikit Learn, Gemini, LangChain, Chroma.
+- **AI/ML:** Whisper for speech-to-text, Azure Image Captioning, Mistral 7B for MCQs, Scikit Learn, Gemini, LangChain, ChromaDB.
 
 - **Deployment:** Azure CDN, Docker for delivery and scaling; MongoDB Atlas for data; Azure App Services for hosting.
 
@@ -148,6 +144,8 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 | **Reliability**           | High for media processing               | Less reliable with UDP (packet loss), more with TCP | High reliability with TCP     |
 
 ---
+## OUR PLAN IS DIVIDED INTO 2 PARTS AS I HAVE MENTIONED BEFORE
+
 
 ## **Plan Part 1 : Smartboard + Pre-Downloaded PPT + Audio (100MB)**
 
@@ -160,11 +158,21 @@ Our platform uniquely addresses data consumption issues, which is a major concer
   - **Audio Only:** ~30 MB - 60 MB per hour.
   - **PPT:** Minimal impact (pre-downloaded).
 
+## **Advantages**
+
+
+1. **Optimized Data Usage:** Our platform reduces data consumption by pre-downloading PowerPoint slides and synchronizing slide changes via WebSocket. This minimizes the bandwidth impact of screen sharing.
+2. **Efficient Content Delivery:** Leveraging WebRTC for audio streaming and a streamlined Jamboard integration ensures a low-bandwidth, high-quality educational experience.
+3. **Low Bandwidth Requirements:** Designed for low-bandwidth environments, our platform provides a smooth educational experience even in remote areas.
+4. **High-Quality Playback:** Azure CDN ensures smooth video playback and reduces buffering.
+
+
 ---
 ## **Plan part 2 : Enagement Enhancer Module(MAJOR DATA CONSUMPTION WILL ONLY BE IN RETRIEVAL OF RESOURCES)**
 - SO After live stream teacher will upload the lecture  where azure cdn and engagement enhancer module will come to play.
 
 ---
+## **Advantages**
 
 ## **Advantages of Azure CDN for Remote Education for downloading of video/playback of video and also for scalability**
 ![image](https://github.com/user-attachments/assets/25291503-26cd-418b-a743-5d0478009203)
@@ -188,15 +196,6 @@ Our platform includes advanced AI-generated resources to enhance the educational
 4. **Doubt Solving Chatbot:** RAG-based chatbot for addressing questions related to lecture content.
 5. **Image Visualizations:** AI-generated visualizations to support lecture content understanding.
 6. **Vocational Learning/Tests through AI Avatar Chatbot:** AI avatar teacher which would give insights on basis of tone of students and also responses given by them to the questions posed by ai avatar module great for personality development.
-
-## **Low Latency Platform**
-
-
-1. **Optimized Data Usage:** Our platform reduces data consumption by pre-downloading PowerPoint slides and synchronizing slide changes via WebSocket. This minimizes the bandwidth impact of screen sharing.
-2. **Efficient Content Delivery:** Leveraging WebRTC for audio streaming and a streamlined Jamboard integration ensures a low-bandwidth, high-quality educational experience.
-3. **Low Bandwidth Requirements:** Designed for low-bandwidth environments, our platform provides a smooth educational experience even in remote areas.
-4. **High-Quality Playback:** Azure CDN ensures smooth video playback and reduces buffering.
-
 
 ## **Present Implementation**
    ![quizsystem](https://github.com/user-attachments/assets/dd7965c1-5249-4c91-97e6-9d1ad21d77c5)
