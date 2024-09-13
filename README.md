@@ -129,17 +129,6 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 
 ---
 
-## **Advantages of Our Platform**
-
-
-1. **Optimized Data Usage:** Our platform reduces data consumption by pre-downloading PowerPoint slides and synchronizing slide changes via WebSocket. This minimizes the bandwidth impact of screen sharing.
-2. **Efficient Content Delivery:** Leveraging WebRTC for audio streaming and a streamlined Jamboard integration ensures a low-bandwidth, high-quality educational experience.
-3. **Low Bandwidth Requirements:** Designed for low-bandwidth environments, our platform provides a smooth educational experience even in remote areas.
-4. **High-Quality Playback:** Azure CDN ensures smooth video playback and reduces buffering.
-
-
----
-
 ## **Plan Part 1 : Smartboard + Pre-Downloaded PPT + Audio (100MB)**
 
 - **Overview:** Integrates WebSockets/WebRTC for audio streaming and pre-downloaded PowerPoint slides.
@@ -153,7 +142,9 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 
 ---
 ## **Plan part 2 : Enagement Enhancer Module(MAJOR DATA CONSUMPTION WILL ONLY BE IN RETRIEVAL OF RESOURCES)**
-- SO After live stream teacher will upload the lecture  where azure cdn and engagement enhancer module will come to play
+- SO After live stream teacher will upload the lecture  where azure cdn and engagement enhancer module will come to play.
+
+---
 
 ## **Advantages of Azure CDN for Remote Education for downloading of video/playback of video and also for scalability**
 ![third-system](https://github.com/user-attachments/assets/918a98ae-1d87-447c-9be9-692177a9d1f9)
@@ -179,6 +170,15 @@ Our platform includes advanced AI-generated resources to enhance the educational
 5. **Image Visualizations:** AI-generated visualizations to support lecture content understanding.
 6. **Vocational Learning/Tests through AI Avatar Chatbot:** AI avatar teacher which would give insights on basis of tone of students and also responses given by them to the questions posed by ai avatar module great for personality development.
 
+## **Low Latency Platform**
+
+
+1. **Optimized Data Usage:** Our platform reduces data consumption by pre-downloading PowerPoint slides and synchronizing slide changes via WebSocket. This minimizes the bandwidth impact of screen sharing.
+2. **Efficient Content Delivery:** Leveraging WebRTC for audio streaming and a streamlined Jamboard integration ensures a low-bandwidth, high-quality educational experience.
+3. **Low Bandwidth Requirements:** Designed for low-bandwidth environments, our platform provides a smooth educational experience even in remote areas.
+4. **High-Quality Playback:** Azure CDN ensures smooth video playback and reduces buffering.
+
+
 ## **Present Implementation**
    ![quizsystem](https://github.com/user-attachments/assets/dd7965c1-5249-4c91-97e6-9d1ad21d77c5)
    - Description : Quiz with difficulty and score at fixed duration of time all based on video content which is generated at fix interval of time so that student is always engaged
@@ -190,7 +190,7 @@ Our platform includes advanced AI-generated resources to enhance the educational
    ![engagement analysis](https://github.com/user-attachments/assets/be37fde9-1e05-48dc-8794-037ed6e177c8)
 
 
-### **Previous Methodology(OUR TRIAL AND ERROR )**
+### **Previous Methodology(OUR TRIAL AND ERROR/Research )**
 
 - Previously, NLP-based methods were used for question generation, but they were resource-intensive and less accurate. 
 - We transitioned to advanced LLMs like LLAMA and Gemini for better performance.
