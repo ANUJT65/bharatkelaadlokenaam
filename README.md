@@ -1,7 +1,8 @@
 # **GramShiksha: Providing Fast Education To Remotest Places**  
 
 ## **Problem Statement**
-![Theme](https://github.com/user-attachments/assets/a52986d6-b3e1-421b-8366-5216c4ca3bc7)
+![image](https://github.com/user-attachments/assets/312049de-4b10-4c8f-bee6-e7ed2e58c614)
+
 
 | #  | Index                                                                                                              |
 |----|--------------------------------------------------------------------------------------------------------------------|
