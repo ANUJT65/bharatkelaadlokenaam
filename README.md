@@ -28,7 +28,7 @@
 - Our Understanding is that we are providing remote education to students until government has enough data on student demographics/attendance etc to provide proper infrastructure to the students.
 
 ## **WHAT ARE THE PROBLEMS??**
-![Problems](https://github.com/user-attachments/assets/1b7abfef-c1a0-4eae-84c3-88e3223171db)
+![Problems](https://github.com/user-attachments/assets/ae958adb-25a4-4062-9707-23c96ecaa8ad)
 
 
 ## **OUR FOCUS CONSIDERING THESE PROBLEMS**
@@ -73,7 +73,8 @@
 ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
 
 ## **METHODOLOGY TECH STACK**
-![Methodology](https://github.com/user-attachments/assets/d5598ff6-c4a0-471b-a174-9a364c344bf9)
+![Methodology](https://github.com/user-attachments/assets/5d8b6772-f635-494e-803c-26dd02aec95d)
+
 ## **Technology Stack**
 
 - **Front-End:** Next.js, Tailwind CSS for dynamic, responsive UIs.
