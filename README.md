@@ -57,7 +57,7 @@
 ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
 
 ## **METHODOLOGY TECH STACK**
-![Methodology](https://github.com/user-attachments/assets/570f010d-59ab-4e7d-aa0b-d7bc238f2644)
+![Methodology](https://github.com/user-attachments/assets/d5598ff6-c4a0-471b-a174-9a364c344bf9)
 
 
 ## (For low latency and low data consumption research details scroll down, we have a great innovation)
