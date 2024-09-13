@@ -21,8 +21,6 @@
 5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation by government
 
 
-
-
 ## **With these things in mind We have divided our project into 2 parts**
 - **1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.**
 - Here students will just join classroom and teacher would teach like in a regular meet but through low data consumption and better human interaction.
@@ -49,14 +47,12 @@
 7. **Vocational Learning AI Avatar:**
    - Helps students choose careers, assists in personality development, and vocational learning.
 
-
 ## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN)**
 
 ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
 
 ## **METHODOLOGY TECH STACK**
 ![Methodology](https://github.com/user-attachments/assets/570f010d-59ab-4e7d-aa0b-d7bc238f2644)
-
 
 
 ## (For low latency research details scroll down, we have a great innovation)
@@ -273,6 +269,4 @@ Present Models how they generate content(all Rag based)
   - **[MongoDB Atlas](https://www.mongodb.com/atlas):** For storing educational content and user data.
   - **[Chroma](https://chroma.com/):** For vector-based data storage and retrieval.
 
----
-=
 
