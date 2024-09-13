@@ -21,6 +21,7 @@
 5. **Analytics for Decision Making:** Provide detailed analytics on student demographics to aid in decision-making and resource allocation by government
 
 
+
 ## **With these things in mind We have divided our project into 2 parts**
 - **1)Live ( low latency ) streaming of video lectures Module with use of websockets/webrtc.**
 - Here students will just join classroom and teacher would teach like in a regular meet but through low data consumption and better human interaction.
@@ -30,6 +31,8 @@
 ## **Our Unique Selling Proposition (USP)**
 
 ![USP](https://github.com/user-attachments/assets/6fc488a2-d893-4205-b1e7-4b1b37270ed9)
+
+![lowlatency](https://github.com/user-attachments/assets/b5523acc-8b3d-4441-89e0-ac4326f7a093)
 
 ## **UNIQUENESS OF OUR SOLUTION**
 1. **Lower Internet Consumption:(research is given below)**
