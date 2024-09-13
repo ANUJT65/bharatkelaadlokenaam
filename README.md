@@ -4,6 +4,63 @@
 **Problem Statement??**
 ![Theme](https://github.com/user-attachments/assets/a52986d6-b3e1-421b-8366-5216c4ca3bc7)
 
+# Index for GramShiksha README
+
+1. [Problem Statement](#problem-statement)
+2. [Some Considerations before we begin](#some-considerations-before-we-begin)
+3. [What are the Problems?](#what-are-the-problems)
+4. [Our Focus Considering These Problems](#our-focus-considering-these-problems)
+   1. Provide AI-Generated Resources
+   2. Implement Low-Internet Services
+   3. Enhance Engagement (MAJOR PROBLEM IN ONLINE EDUCATION)
+   4. Identify At-Risk Students
+   5. Analytics for Decision Making
+5. [Project Division](#with-these-things-in-mind-we-have-divided-our-project-into-2-parts)
+   1. Live (Low Latency) Streaming of Video Lectures Module
+   2. PreRecorded Lecture Video Playback/Engagement Enhancer Module
+6. [Unique Selling Propositions (USPs)](#our-unique-selling-propositions-usps)
+   1. First USP
+   2. Second USP
+7. [Uniqueness of Our Solution](#uniqueness-of-our-solution)
+   1. Lower Internet Consumption
+   2. Adaptive Learning Quiz Module
+   3. Individual Attention and Counseling
+   4. Visualization of Key Concepts
+   5. After-Class Comprehensive Notes
+   6. RAG-Based Doubt Assistant
+   7. Vocational Learning AI Avatar
+8. [Architecture and Use Cases](#architecture-and-use-casesplease-zoom-inscroll-in)
+9. [Methodology and Tech Stack](#methodology-tech-stack)
+   1. Front-End
+   2. Back-End
+   3. AI/ML
+   4. Deployment
+10. [Research on Low Latency Video Streaming](#our-research-on-low-latency-video-streaming)
+    1. Pre-Downloaded PowerPoint Slides
+    2. Audio Streaming through WebRTC
+    3. Jamboard Integration
+11. [Data Usage Comparison](#data-usage-comparison-and-latency-comparison-with-existing-platforms)
+    1. Google Meet
+    2. Our Platform (WebSocket + WebRTC)
+12. [Technology Comparison: FFmpeg vs WebRTC vs WebSocket](#technology-comparison-why-we-chose-webrtc-and-websockets)
+13. [Plan Part 1: Smartboard + Pre-Downloaded PPT + Audio](#plan-part-1--smartboard--pre-downloaded-ppt--audio-100mb)
+14. [Plan Part 2: Engagement Enhancer Module](#plan-part-2--enagement-enhancer-modulemajor-data-consumption-will-only-be-in-retrieval-of-resources)
+15. [Advantages of Azure CDN](#advantages-of-azure-cdn-for-remote-education-for-downloading-of-videoplayback-of-video-and-also-for-scalability)
+16. [AI-Resource Generation: How We Are Unique!](#ai-resource-generation-how-we-are-unique)
+   1. Adaptive MCQs
+   2. AI-Generated Notes
+   3. AI-Generated Flow Diagrams and Process Flows
+   4. Doubt Solving Chatbot
+   5. Image Visualizations
+   6. Vocational Learning/Tests through AI Avatar Chatbot
+17. [Low Latency Platform](#low-latency-platform)
+   1. Optimized Data Usage
+   2. Efficient Content Delivery
+   3. Low Bandwidth Requirements
+   4. High-Quality Playback
+18. [Present Implementation](#present-implementation)
+
+
 ## **Some Considerations before we begin**
 - We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
 - Our Understanding is that we are providing remote education to students until government has enough data on student demographics/attendance etc to provide proper infrastructure to the students.
