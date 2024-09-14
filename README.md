@@ -4,6 +4,7 @@
 ![image](https://github.com/user-attachments/assets/312049de-4b10-4c8f-bee6-e7ed2e58c614)
 
 
+
 | #  | Index                                                                                                              |
 |----|--------------------------------------------------------------------------------------------------------------------|
 | 1  | [Problem Statement](#problem-statement)                                                                            |
@@ -29,7 +30,7 @@
 - Our Understanding is that we are providing remote education to students until government has enough data on student demographics/attendance etc to provide proper infrastructure to the students.
 
 ## **WHAT ARE THE PROBLEMS??**
-![Problems](https://github.com/user-attachments/assets/ae958adb-25a4-4062-9707-23c96ecaa8ad)
+![Problemstatement](https://github.com/user-attachments/assets/f9b42f51-fe85-460f-b3e3-b579f2dc44d1)
 
 
 ## **OUR FOCUS CONSIDERING THESE PROBLEMS**
