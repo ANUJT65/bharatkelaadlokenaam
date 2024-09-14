@@ -49,10 +49,10 @@
 
 ## **Our Unique Selling Propositions (USPs)**
 ## FIRST
-![USP](https://github.com/user-attachments/assets/aafa9723-c2b1-4045-a1a0-e4e9f650b791)
 
-## SECOND
 ![lowlatency](https://github.com/user-attachments/assets/b5523acc-8b3d-4441-89e0-ac4326f7a093)
+## SECOND
+![USP](https://github.com/user-attachments/assets/aafa9723-c2b1-4045-a1a0-e4e9f650b791)
 
 ## **UNIQUENESS OF OUR SOLUTION**
 1. **Lower Internet Consumption:(research is given below)**
