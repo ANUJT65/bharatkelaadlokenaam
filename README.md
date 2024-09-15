@@ -88,6 +88,8 @@
   - **Student Management:**
     - Generate personal reports for students.
     - Track attendance and monitor student engagement.
+    - Send SMS for lectures to parents application.
+    - Student Demographics, location and resource management
   - **Feedback Mechanism:** Receive insights on student performance, including dropout risk scores.
 
 - **AI-Generated Resources Storage:**
@@ -97,8 +99,8 @@
 
 ### Student Side
 - **Engagement Enhancer Module:**
-  - **Adaptive Quiz:** Generate quizzes that adapt in difficulty based on student performance.
-  - **Image Generation:** Create visual aids using keywords and key sentences through tools like Stable Diffusion.
+  - **Adaptive Quiz with timely engaement monitoring:** Generate quizzes that adapt in difficulty based on student performance at interval at 2-5 minutes.
+  - **Image Generation:** Create visual aids passing relevant keywords and key sentences from viddeo to  Stable Diffusion image generation model.
   - **Mind Map Generation:** Generate mind maps to visualize concepts for better understanding.
   - **AI Avatar:** Provide interactive support for vocational learning and personality development.
   - **Illustrated Notes:** Deliver structured notes including titles, subheadings, summaries, and flowcharts.
@@ -107,6 +109,8 @@
 - Continuous interaction between teachers and students through live classes and stored resources.
 - Teachers receive data on student interactions to adjust teaching strategies.
 - Students have efficient access to AI-generated resources, enhancing the overall learning experience.
+- Government gets data of the students and the resources needed for their better learning experience,
+- so that they could enhance the infrastructure in these remote areas.
 
 
 ## **METHODOLOGY TECH STACK**
@@ -117,7 +121,7 @@
 - **Front-End:** Next.js, Tailwind CSS for dynamic, responsive UIs.
 - **Back-End:** Flask for scalable AI-driven backend.
 
-- **AI/ML:** Whisper for speech-to-text, Azure Image Captioning, Mistral 7B for MCQs, Scikit Learn, Gemini, LangChain, ChromaDB.
+- **AI/ML:** Whisper for speech-to-text, Azure Image Captioning, Mistral 7B for MCQs, Scikit Learn for ML, Gemini, LangChain, ChromaDB for RAGs and Resource Generation
 
 - **Deployment:** Azure CDN, Docker for delivery and scaling; MongoDB Atlas for data; Azure App Services for hosting.
 
