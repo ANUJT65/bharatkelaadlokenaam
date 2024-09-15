@@ -210,8 +210,8 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 
 
 ---
-## **Plan part 2 : Enagement Enhancer Module(MAJOR DATA CONSUMPTION WILL ONLY BE IN RETRIEVAL OF RESOURCES)**
-- SO After live stream teacher will upload the lecture  where azure cdn and engagement enhancer module will come to play.
+## **Plan part 2 : Enagement Enhancer Module(MOST DATA CONSUMPTION WILL ONLY BE IN RETRIEVAL OF RESOURCES FROM DATABASES which will be OVERALL MINIMAL)**
+- SO After live stream teacher will upload the lecture where azure cdn and engagement enhancer module will come to play.
 
 ---
 ## **AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW CONSUMPTION**
