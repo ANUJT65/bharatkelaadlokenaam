@@ -54,8 +54,11 @@
 ![USP](https://github.com/user-attachments/assets/aafa9723-c2b1-4045-a1a0-e4e9f650b791)
 
 ## **UNIQUENESS OF OUR SOLUTION**
-1. **Lower Internet Consumption:(research is given below)**
+1. **Lower Internet Consumption for Live Steams:(research is given below)**
    - Provides remote online classes using just **60-100 MB** of data per hour, compared to typical 600 MB-1 GB.
+1. **AI Resource generation at lowest data and retrieval at lowest latency:(research is given below)**
+   - With the use of **Azure CDN** and prestorage of the  ai generated resources in **Azure Blob and MongoDB Atlas** while uploading the video , consumption on student side is reduced, only consumption is for 
+     retrieval of databases.
 2. **Adaptive Learning Quiz Module:**
    - Developed an adaptive learning quiz system where the difficulty of the next question is determined by previously answered questions.
 3. **Individual Attention and Counseling:**
