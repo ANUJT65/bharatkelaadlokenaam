@@ -76,6 +76,39 @@
 
 ![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
 
+## **USER FLOW**
+![SIH2024smalldiagram drawio (1)](https://github.com/user-attachments/assets/444e9b87-f472-414a-97c7-20cbfb21944d)
+### Teacher Side
+- **Online Lecture and Recorded Lecture:**
+  - Conduct live classes using smart boards and streaming technologies (e.g., WebRTC).
+  - Record lectures for later access; lectures are stored in cloud services (e.g., Azure CDN).
+
+- **Teacher Dashboard:**
+  - **Time Table Generation:** Create and manage class schedules.
+  - **Student Management:**
+    - Generate personal reports for students.
+    - Track attendance and monitor student engagement.
+  - **Feedback Mechanism:** Receive insights on student performance, including dropout risk scores.
+
+- **AI-Generated Resources Storage:**
+  - AI-generated resources (e.g., images, quizzes) are created once and stored in:
+    - **MongoDB:** For structured data storage.
+    - **Microsoft Azure Blob Storage:** For storing large files and assets.
+
+### Student Side
+- **Engagement Enhancer Module:**
+  - **Adaptive Quiz:** Generate quizzes that adapt in difficulty based on student performance.
+  - **Image Generation:** Create visual aids using keywords and key sentences through tools like Stable Diffusion.
+  - **Mind Map Generation:** Generate mind maps to visualize concepts for better understanding.
+  - **AI Avatar:** Provide interactive support for vocational learning and personality development.
+  - **Illustrated Notes:** Deliver structured notes including titles, subheadings, summaries, and flowcharts.
+
+### Overall Flow
+- Continuous interaction between teachers and students through live classes and stored resources.
+- Teachers receive data on student interactions to adjust teaching strategies.
+- Students have efficient access to AI-generated resources, enhancing the overall learning experience.
+
+
 ## **METHODOLOGY TECH STACK**
 ![Methodology](https://github.com/user-attachments/assets/5d8b6772-f635-494e-803c-26dd02aec95d)
 
