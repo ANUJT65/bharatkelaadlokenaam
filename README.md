@@ -18,12 +18,11 @@
 | 9  | [Methodology & Technology Stack](#methodology-tech-stack)                                                          |
 | 10 | [Research on Low Latency Video Streaming](#our-research-on-low-latency-video-streaming)                             |
 | 11 | [Plan Part 1: Smartboard + Pre-Downloaded PPT + Audio](#plan-part-1--smartboard--pre-downloaded-ppt--audio-100mb)   |
-| 12 | [Plan Part 2: Engagement Enhancer Module](#plan-part-2--enagement-enhancer-modulemajor-data-consumption-will-only-be-in-retrieval-of-resources) |
+| 12 | [Plan Part 2: Engagement Enhancer Module](#plan-part-2--engagement-enhancer-module-major-data-consumption-will-only-be-in-retrieval-of-resources) |
 | 13 | [Advantages of Azure CDN for Remote Education](#advantages-of-azure-cdn-for-remote-education)                       |
-| 14 | [AI-Resource Generation](#ai-resource-generation-how-we-are-unique)                                                |
+| 14 | [AI-Resource Generation](#ai-resource-generation-how-we-ensure-low-consumption-and-efficiency)                      |
 | 15 | [Low Latency Platform](#low-latency-platform)                                                                      |
-| 16 | [Present Implementation](#present-implementation)                                                                  |
-
+| 16 | [Present Implementation](#present-implementation)   
 
 ## **Some Considerations before we begin**
 - We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
@@ -175,6 +174,29 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 - SO After live stream teacher will upload the lecture  where azure cdn and engagement enhancer module will come to play.
 
 ---
+## **AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW CONSUMPTION**
+
+### **Optimized Resource Creation and Delivery**
+
+We understand the importance of providing fast and accessible education, especially in remote areas where internet bandwidth and computing resources are limited. To ensure efficiency, we’ve designed our AI-resource generation and delivery system with minimal consumption and maximum impact. Here's how:
+
+### **AI Resources Are Generated Once and Stored:**
+To reduce computational load and bandwidth, all AI-generated resources (such as notes, quizzes, flowcharts) are created once at the time of video upload. These resources are then stored in **Azure Blob Storage** and **MongoDB Atlas**.  
+This approach ensures that resources are readily available without reprocessing, saving on both compute power and data transfer costs.
+
+### **Use of Lightweight APIs for Resource Generation:**
+We leverage lightweight APIs such as **Groq API for LLaMA**, **Gemini API**, **Mistral 7B**, and **LangChain** for generating adaptive quizzes, notes, and diagrams. These models are optimized to run with minimal computational overhead, reducing the consumption of both memory and processing power.
+
+### **RAG (Retrieval-Augmented Generation) for Efficient AI Processing:**
+**RAG-based methods** are applied to both video transcriptions and captions, ensuring that resources are generated with high accuracy and without unnecessary computation. This also helps reduce redundancy, keeping the processing streamlined.
+
+### **AI-Generated Content Delivery via Azure CDN:**
+All AI-generated resources, including videos, notes, and visualizations, are delivered through **Azure CDN**. This reduces latency and ensures that content is delivered quickly with minimal bandwidth usage, even in low-internet areas.
+
+### **Minimized Data Transfer for Engagement Enhancer Module:**
+The **Engagement Enhancer Module**, which delivers quizzes, chatbots, and visual aids during video playback, is designed to consume very little data. Only small chunks of data, such as quiz responses or real-time visualizations, are sent back and forth, significantly reducing data consumption compared to live-streamed alternatives.
+
+
 ## **Advantages**
 
 ## **Advantages of Azure CDN for Remote Education for downloading of video/playback of video and also for scalability**
@@ -187,18 +209,6 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 3. **Scalability:** Supports large traffic volumes and spikes.
 4. **High Availability:** Ensures reliable access to resources with minimal downtime.
 5. **Cost Efficiency:** Lowers bandwidth and infrastructure costs.
-
-## **AI-Resource Generation: HOW WE ARE UNIQUE!!**
-
-Our platform includes advanced AI-generated resources to enhance the educational experience:
-**We are applying RAGs on the transcription of the video + on the captions from video so that we can get better ai generated resources, you could even see in architecture diagram so all resources are generated using this, ensuring accuracy**
-
-1. **Adaptive MCQS Which track Engagement throughout the videos:** Adaptive MCQs generated based on lecture content, increasing in difficulty as the user progresses.
-2. **AI-Generated Notes:** Real-time note generation based on the ongoing lecture.
-3. **AI-Generated Flow Diagrams and Process Flows:** Summarized and generated using nodes and connections for clear visualizations.
-4. **Doubt Solving Chatbot:** RAG-based chatbot for addressing questions related to lecture content.
-5. **Image Visualizations:** AI-generated visualizations to support lecture content understanding.
-6. **Vocational Learning/Tests through AI Avatar Chatbot:** AI avatar teacher which would give insights on basis of tone of students and also responses given by them to the questions posed by ai avatar module great for personality development.
 
 ## **Present Implementation**
 ![quizsystem](https://github.com/user-attachments/assets/dd7965c1-5249-4c91-97e6-9d1ad21d77c5)
