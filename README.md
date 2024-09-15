@@ -20,7 +20,7 @@
 | 11 | [Plan Part 1: Smartboard + Pre-Downloaded PPT + Audio](#plan-part-1--smartboard--pre-downloaded-ppt--audio-100mb)   |
 | 12 | [Plan Part 2: Engagement Enhancer Module](#plan-part-2--engagement-enhancer-module-major-data-consumption-will-only-be-in-retrieval-of-resources) |
 | 13 | [Advantages of Azure CDN for Remote Education](#advantages-of-azure-cdn-for-remote-education)                       |
-| 14 | [AI-Resource Generation-how-we-ensure-low-consumption-and-efficiency](#how-we-ensure-low-consumption-and-efficiency)                      |
+|14  | [AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW CONSUMPTION](#ai-resource-generation-how-we-ensure-efficient-and-low-consumption)  |
 | 15 | [Low Latency Platform](#low-latency-platform)                                                                      |
 | 16 | [Present Implementation](#present-implementation)   
 
