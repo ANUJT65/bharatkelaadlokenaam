@@ -259,7 +259,8 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 ![image](https://github.com/user-attachments/assets/53ac55df-daff-48dc-8953-37cc72b09954)
 
 -Description : Summary of content in the video till now+ image visualization wherits showing visualizations based off of stable diffusion model based on keywords in video
-![image](https://github.com/user-attachments/assets/a9d9e71b-feeb-44c1-9df4-a9dd3356757c)
+![Untitled design](https://github.com/user-attachments/assets/2b1d2d31-6cef-4286-816c-39100c04236f)
+
 
 -Description : Doubts assistant and feedback/doubt module in case something is not understood or some technical error occurs
 ![image](https://github.com/user-attachments/assets/09edef28-b17f-4d67-99c7-2a17811b5261)
