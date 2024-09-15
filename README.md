@@ -284,7 +284,7 @@ Present Models how they generate content(all Rag based)
 ![FLOWFLOW](https://github.com/user-attachments/assets/ac51465c-f38a-4cb9-b247-ab03fce91b30)
 
 ## Notes Generation Module[RAGs based]
-![notesmodel](https://github.com/user-attachments/assets/0ba94766-0a20-474f-8861-cc4dcaa31e33)
+![classnotesmodel](https://github.com/user-attachments/assets/6b72af0b-fc0d-41dd-be66-d118073d2311)
 
 
 ### **Business Aspects and Cost Analysis**
