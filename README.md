@@ -216,25 +216,26 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 ---
 ## **AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW CONSUMPTION**
 
-### **Optimized Resource Creation and Delivery**
+- **AI Resources Are Generated Once and Stored:**
+  - AI-generated resources (e.g., notes, quizzes, flowcharts) are created once during video upload.
+  - Resources are stored in **Azure Blob Storage** and **MongoDB Atlas**, ensuring quick access without reprocessing.
+  - This approach saves compute power and reduces data transfer costs.
 
-We understand the importance of providing fast and accessible education, especially in remote areas where internet bandwidth and computing resources are limited. To ensure efficiency, we’ve designed our AI-resource generation and delivery system with minimal consumption and maximum impact. Here's how:
+- **Use of Lightweight APIs for Resource Generation:**
+  - APIs such as **Groq API for LLaMA**, **Gemini API**, **Mistral 7B**, and **LangChain** are used for generating adaptive quizzes, notes, and diagrams.
+  - These apis help to minimize memory and processing power consumption.
 
-### **AI Resources Are Generated Once and Stored:**
-To reduce computational load and bandwidth, all AI-generated resources (such as notes, quizzes, flowcharts) are created once at the time of video upload. These resources are then stored in **Azure Blob Storage** and **MongoDB Atlas**.  
-This approach ensures that resources are readily available without reprocessing, saving on both compute power and data transfer costs.
+- **RAG (Retrieval-Augmented Generation) for Efficient AI Processing:**
+  - RAG methods are applied to video transcriptions and captions to ensure high-accuracy resource generation.
+  - This approach avoids unnecessary computation and reduces redundancy, streamlining the process.
 
-### **Use of Lightweight APIs for Resource Generation:**
-We leverage lightweight APIs such as **Groq API for LLaMA**, **Gemini API**, **Mistral 7B**, and **LangChain** for generating adaptive quizzes, notes, and diagrams. These models are optimized to run with minimal computational overhead, reducing the consumption of both memory and processing power.
-
-### **RAG (Retrieval-Augmented Generation) for Efficient AI Processing:**
-**RAG-based methods** are applied to both video transcriptions and captions, ensuring that resources are generated with high accuracy and without unnecessary computation. This also helps reduce redundancy, keeping the processing streamlined.
-
-### **AI-Generated Content Delivery via Azure CDN:**
-All AI-generated resources, including videos, notes, and visualizations, are delivered through **Azure CDN**. This reduces latency and ensures that content is delivered quickly with minimal bandwidth usage, even in low-internet areas.
-
-### **Minimized Data Transfer for Engagement Enhancer Module:**
-The **Engagement Enhancer Module**, which delivers quizzes, chatbots, and visual aids during video playback, is designed to consume very little data. Only small chunks of data, such as quiz responses or real-time visualizations, are sent back and forth, significantly reducing data consumption compared to live-streamed alternatives.
+- **Minimized Data Transfer for Engagement Enhancer Module:**
+  - The **Engagement Enhancer Module** (quizzes, chatbots, visual aids) is designed for low data consumption.
+  - Only small data packets, such as quiz responses or real-time visualizations retrieval from database, are transmitted, significantly reducing data usage compared to live-streamed alternatives.
+ 
+- **AI-Generated Content Delivery via Azure CDN: WHY AZURE CDN YOU MAY ASK SEE BELOW**
+  - All AI-generated content (videos, notes, visualizations) is delivered via **Azure CDN**.
+  - This ensures low-latency content delivery and minimal bandwidth usage, even in low-internet environments.
 
 
 ## **Advantages**
