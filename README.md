@@ -20,7 +20,7 @@
 | 11 | [Plan Part 1: Smartboard + Pre-Downloaded PPT + Audio](#plan-part-1--smartboard--pre-downloaded-ppt--audio-100mb)   |
 | 12 | [Plan Part 2: Engagement Enhancer Module](#plan-part-2--engagement-enhancer-module-major-data-consumption-will-only-be-in-retrieval-of-resources) |
 | 13 | [Advantages of Azure CDN for Remote Education](#advantages-of-azure-cdn-for-remote-education)                       |
-|14  | [AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW CONSUMPTION](#ai-resource-generation-how-we-ensure-efficient-and-low-data-consumption)  |
+|14  | [AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW DATA CONSUMPTION](#ai-resource-generation-how-we-ensure-efficient-and-low-data-consumption)  |
 | 15 | [Low Latency Platform](#low-latency-platform)                                                                      |
 | 16 | [Present Implementation](#present-implementation)   
 
@@ -130,6 +130,9 @@
 
 
 ## OUR RESEARCH ON LOW LATENCY VIDEO STREAMING
+
+![WhatsApp Image 2024-09-15 at 7 17 16 PM](https://github.com/user-attachments/assets/775e9c22-061d-4ffc-bfd3-b87b1d1c67ef)
+
 **Optimized for Low Data Usage and Enhanced Remote Education**
 # Comparison of Our Platform with Google Meet
 ---
