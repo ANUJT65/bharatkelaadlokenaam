@@ -120,12 +120,10 @@
 ![Methodology](https://github.com/user-attachments/assets/5d8b6772-f635-494e-803c-26dd02aec95d)
 
 ## **Technology Stack**
-
+- **WEBAPP**
 - **Front-End:** Next.js, Tailwind CSS for dynamic, responsive UIs.
 - **Back-End:** Flask for scalable AI-driven backend.
-
 - **AI/ML:** Whisper for speech-to-text, Azure Image Captioning, Mistral 7B for MCQs, Scikit Learn for ML, Gemini, LangChain, ChromaDB for RAGs and Resource Generation
-
 - **Deployment:** Azure CDN, Docker for delivery and scaling; MongoDB Atlas for data; Azure App Services for hosting.
 
 
