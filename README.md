@@ -74,7 +74,8 @@
 
 ## **ARCHITECTURE AND USE CASES(PLEASE ZOOM IN/SCROLL IN)**
 
-![SIH2024-Page-1 drawio (2)](https://github.com/user-attachments/assets/fb76366d-300e-4f90-b67a-0e9379ba1bff)
+![SIH2024-Page-1 drawio (3)](https://github.com/user-attachments/assets/2f41110d-205c-4df1-8354-5456f05418d0)
+
 
 ## **USER FLOW**
 ![SIH2024smalldiagram drawio (1)](https://github.com/user-attachments/assets/444e9b87-f472-414a-97c7-20cbfb21944d)
