@@ -128,12 +128,13 @@
 
 
 
-![image](https://github.com/user-attachments/assets/a3d35370-b184-4a33-a01f-2e5f146fdd49)
 
 ## (For low latency and low data consumption research details scroll down, we have a great innovation)
 
 
 ## OUR RESEARCH ON LOW LATENCY VIDEO STREAMING
+
+![image](https://github.com/user-attachments/assets/b05952ec-310a-410e-bcbf-3fc51c4d6121)
 
 
 **Optimized for Low Data Usage and Enhanced Remote Education**
