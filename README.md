@@ -127,12 +127,14 @@
 - **Deployment:** Azure CDN, Docker for delivery and scaling; MongoDB Atlas for data; Azure App Services for hosting.
 
 
+
+![image](https://github.com/user-attachments/assets/a3d35370-b184-4a33-a01f-2e5f146fdd49)
+
 ## (For low latency and low data consumption research details scroll down, we have a great innovation)
 
 
 ## OUR RESEARCH ON LOW LATENCY VIDEO STREAMING
 
-![WhatsApp Image 2024-09-15 at 7 17 16 PM](https://github.com/user-attachments/assets/775e9c22-061d-4ffc-bfd3-b87b1d1c67ef)
 
 **Optimized for Low Data Usage and Enhanced Remote Education**
 # Comparison of Our Platform with Google Meet
