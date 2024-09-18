@@ -138,7 +138,7 @@
 
 
 **Optimized for Low Data Usage and Enhanced Remote Education**
-# Comparison of Our Platform with Google Meet
+# Comparison of Our Platform with Google Meet/Unacademy/Physicswallah/Microsoft Teams
 ---
 ## **How We Reduced Data Usage**
 
