@@ -174,7 +174,7 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 | **Technology**           | **Type**        | **Latency** | **Resolution** | **Data Usage (per hour)** |
 |--------------------------|-----------------|-------------|----------------|---------------------------|
 | **WebRTC Audio Only**    | Audio Only       | 100-300 ms   | N/A            | 30-60 MB                  |
-| **WebSocket Audio Only** | Audio Only       | 100-300 ms   | N/A            | 30-60 MB                  |
+| **WebSocket Audio Only** | Audio Only(Less reliable for audio) | 100-300 ms   | N/A            | 30-60 MB                  |
 | **WebRTC Video + Audio** | Video & Audio    | 100-500 ms   | 720p/1080p     | 1.5-6 GB                  |
 | **WebSocket Video + Audio** | Video & Audio | 100-500 ms   | 720p/1080p     | 1.5-6 GB                  |
 
