@@ -47,10 +47,10 @@
 - Here there is loads of ai generated resources, engagement enhancing resources which generate interests in learning and all given through lowest data consumption on a prerecorded lecture.
 
 ## **Our Unique Selling Propositions (USPs)**
-## FIRST(LOW LATENCY AND LOW DATA LIVE STREAMING OF LECTURES)
+## 1)) LOW LATENCY AND LOW DATA LIVE STREAMING OF LECTURES
 
 ![lowlatency](https://github.com/user-attachments/assets/b5523acc-8b3d-4441-89e0-ac4326f7a093)
-## SECOND(ENGAGEMENT ENHANCER MODULE LOW DATA AI RESOURCE GENERATION)
+## 2)) ENGAGEMENT ENHANCER MODULE LOW DATA AI RESOURCE GENERATION
 ![USP](https://github.com/user-attachments/assets/aafa9723-c2b1-4045-a1a0-e4e9f650b791)
 
 ## **UNIQUENESS OF OUR SOLUTION**
