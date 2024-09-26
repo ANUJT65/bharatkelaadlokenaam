@@ -341,7 +341,7 @@ Present Models how they generate content(all Rag based)
 - IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
 
 [![Watch the demo video]![thumbnail](https://github.com/user-attachments/assets/4a081e46-4828-4e7f-9201-dcf3829fd572)
-()](https://www.youtube.com/watch?v=6yJG-DD2b1E)
+()](https://youtu.be/2MAV9zW43QE)
 
 ## **PPT LINK: Edu-connect Prototype**
 - [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1FqkkNUAilG22GKpzLw2jHc6gS9xH3AO7hKw9quA5CWw/edit#slide=id.g78bebef4de_0_41)
