@@ -319,6 +319,8 @@ Present Models how they generate content(all Rag based)
 ## **BUSINESS RELEVANCE**
 - **PaaS:** Our software can function as a Platform as a Service (PaaS) option for low-latency internet networks in rural India.
 - **SaaS:** The Engagement Enhancer Module can be integrated into smaller edtech platforms and educational institutions as APIs, tailored to their needs.
+![image](https://github.com/user-attachments/assets/659db129-965b-44e6-b51c-e06a56b58cd0)
+
 
 ## **Table Of Benefits To Student And Teacher**
 ![image](https://github.com/user-attachments/assets/f7214c41-003f-4220-b060-f20537762385)
