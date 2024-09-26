@@ -23,6 +23,9 @@
 |14  | [AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW DATA CONSUMPTION](#ai-resource-generation-how-we-ensure-efficient-and-low-data-consumption)  |
 | 15 | [Low Latency Platform](#low-latency-platform)                                                                      |
 | 16 | [Present Implementation](#present-implementation)   
+| 16 | [BUSINESS RELEVANCE](#BUSINESS-RELEVANCE)   
+
+
 
 ## **Some Considerations before we begin**
 - We are assuming that teachers are given sufficient resources/internet and also infra facilities to stream lectures
