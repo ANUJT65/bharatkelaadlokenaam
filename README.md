@@ -24,6 +24,7 @@
 | 15 | [Low Latency Platform](#low-latency-platform)                                                                      |
 | 16 | [Present Implementation](#present-implementation)   
 | 16 | [BUSINESS RELEVANCE](#BUSINESS-RELEVANCE)   
+| 17 | [Impact And Benefits](#Impact-And-Benefits)
 
 
 
@@ -326,7 +327,7 @@ Present Models how they generate content(all Rag based)
 ![image](https://github.com/user-attachments/assets/659db129-965b-44e6-b51c-e06a56b58cd0)
 
 
-## **Table Of Benefits To Student And Teacher**
+## **Impact And Benefits**
 ![image](https://github.com/user-attachments/assets/f7214c41-003f-4220-b060-f20537762385)
 
 ## **FUTURE WORK**
