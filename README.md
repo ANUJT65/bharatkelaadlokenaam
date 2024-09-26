@@ -321,9 +321,6 @@ Present Models how they generate content(all Rag based)
 2. [Bandwidth Reduction and Low Latency Streaming](https://docs.google.com/document/d/1nz2BZhKVGAW2OFdqejp5t70CiXt33XkHybpRM6g80zU/edit)
 
 ## **BUSINESS RELEVANCE**
-- **PaaS:** Our software can function as a Platform as a Service (PaaS) option for low-latency internet networks in rural India.
-- **SaaS:** The Engagement Enhancer Module can be integrated into smaller edtech platforms and educational institutions as APIs, tailored to their needs.
-  
 ![image](https://github.com/user-attachments/assets/659db129-965b-44e6-b51c-e06a56b58cd0)
 
 
@@ -336,7 +333,7 @@ Present Models how they generate content(all Rag based)
 
 ## **DEMO VIDEO**
 (Watch the demo video on 2X speed if you prefer.t.)
-- **Demo Video:** [Watch the demo video](https://www.youtube.com/watch?v=6yJG-DD2b1E)
+- **Demo Video:** [Watch the demo video](https://youtu.be/2MAV9zW43QE)
 
 - IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
 
