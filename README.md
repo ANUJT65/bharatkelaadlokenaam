@@ -325,7 +325,8 @@ Present Models how they generate content(all Rag based)
 
 
 ## **Impact And Benefits**
-![image](https://github.com/user-attachments/assets/f7214c41-003f-4220-b060-f20537762385)
+![image](https://github.com/user-attachments/assets/031dacdc-fb58-477e-8664-2f69eb666e52)
+
 
 ## **FUTURE WORK**
 - **WebSocket/RTC and ML Integration:** Integrate WebRTC and ML-based models in cameras before videos are sent over the internet. Where full software integration is not possible, models can be used separately with existing services.
