@@ -343,7 +343,7 @@ Present Models how they generate content(all Rag based)
 ()](https://youtu.be/2MAV9zW43QE)
 
 ## **PPT LINK: Edu-connect Prototype**
-- [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1FqkkNUAilG22GKpzLw2jHc6gS9xH3AO7hKw9quA5CWw/edit#slide=id.g78bebef4de_0_41)
+- [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1lS-D2Hg082QVSKBqYwQ98Jx9Z66FGlRJdlipw_SRnlE/edit#slide=id.g302193ce8f2_0_820)
 
 
 
