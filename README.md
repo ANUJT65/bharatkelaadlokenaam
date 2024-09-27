@@ -325,7 +325,8 @@ Present Models how they generate content(all Rag based)
 
 
 ## **Impact And Benefits**
-![image](https://github.com/user-attachments/assets/031dacdc-fb58-477e-8664-2f69eb666e52)
+![image](https://github.com/user-attachments/assets/6d2d8250-3901-460e-aa06-7bc563f54561)
+
 
 
 ## **FUTURE WORK**
