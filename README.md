@@ -263,22 +263,37 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 5. **Cost Efficiency:** Lowers bandwidth and infrastructure costs.
 
 ## **Present Implementation**
+
+
+
 ![image](https://github.com/user-attachments/assets/19bfaaa8-015a-4bc0-941d-b9683f256696)
-
-
--Description : Quiz with difficulty and score at fixed duration of time all based on video content which is generated at fix interval of time so that student is always engaged
+- **Description of above image**: 
+ - Quiz is generated  with adaptive difficulty and score at fixed duration of time all based on video content
+ - This  is generated at fix interval of time so that student is always engaged.
 ![image](https://github.com/user-attachments/assets/53ac55df-daff-48dc-8953-37cc72b09954)
 
--Description : Summary of content in the video till now+ image visualization wherits showing visualizations based off of stable diffusion model based on keywords in video
+- **Description**: 
+  - Summary of content in the video till now is shown so that student can revise it for the quiz wherever he left the video at
+  - This also has a feedback module/ doubts module , as its remote learning directly  approaching teacher is not possible , they can reach out to teacher from here.
 ![Untitled design](https://github.com/user-attachments/assets/2b1d2d31-6cef-4286-816c-39100c04236f)
 
-
--Description : Doubts assistant and feedback/doubt module in case something is not understood or some technical error occurs
+-**Description** :
+  - Doubts assistant and feedback/doubt module in case something is not understood or some technical error occurs
+  - Along with this there is also an **image visualization module** where we can see the images related to concepts taught in video being retrieved from databases( they are prestored and retrieved at specific interval they are mentioned at)
 ![image](https://github.com/user-attachments/assets/09edef28-b17f-4d67-99c7-2a17811b5261)
 
--Description: Engagement analytics of each student is generated like where the exact time where they get it wrong is marked in the line chart
--and how manythey get wrong is marked in pie chart.
--From this teachers can get insights on where student is lacking or which topic is not understood by student.
+- **Description**: 
+ - Engagement analytics of each student is generated like where the exact time where they get it wrong is marked in the line chart.
+ - Accuracy of their answers are shown in pie chart
+ - From this teachers can get insights on where student is lacking or which topic is not understood by student.
+
+![image](https://github.com/user-attachments/assets/49dc95ad-256f-4b11-9235-8092b7d3a6a5)
+- **Description**: 
+ - This is the vocational learning module where the ai avatar would take student's test using speech
+ - This module takes your tests in any language you are comfortable with.
+ - Also analysis of your answers are shown just below, we are still working on making it more student friendly!.
+
+   
 
 ### **Previous Methodology(OUR TRIAL AND ERROR/Research )**
 
