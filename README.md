@@ -348,15 +348,10 @@ Present Models how they generate content(all Rag based)
 ![classnotesmodel](https://github.com/user-attachments/assets/6b72af0b-fc0d-41dd-be66-d118073d2311)
 
 
-
-
 ## **DEPENDENCIES**
 - **Cost Management:** Ensuring that the cost for the platform remains manageable. Most materials like MCQs, images, and notes are generated once and stored in Azure Blob and MongoDB Atlas while videos are uploading.
 - **Scalability:** Ensuring that databases are deployed on the cloud to balance user load and maintain system scalability.
 
-## **REFERENCES**
-1. [AI-Generated Resources and Utilization](https://docs.google.com/document/d/14re6fryT5AbtQjucr57YsmUxMyIjwWaGiusrRAzYcGs/edit?addon_store)
-2. [Bandwidth Reduction and Low Latency Streaming](https://docs.google.com/document/d/1nz2BZhKVGAW2OFdqejp5t70CiXt33XkHybpRM6g80zU/edit)
 
 ## **BUSINESS RELEVANCE**
 ![image](https://github.com/user-attachments/assets/659db129-965b-44e6-b51c-e06a56b58cd0)
@@ -402,6 +397,8 @@ https://link.springer.com/article/10.1007/s10758-023-09704-3
 https://www.sciencedirect.com/science/article/pii/S2590291124000676
 https://journals.sagepub.com/doi/full/10.1177/2042753019882567
 https://www.researchgate.net/publication/384067695_Impact_of_Technology-Enhanced_Learning_on_Student_Outcomes
+https://docs.google.com/document/d/14re6fryT5AbtQjucr57YsmUxMyIjwWaGiusrRAzYcGs/edit?addon_store
+
 
 
 
