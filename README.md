@@ -351,7 +351,6 @@ Present Models how they generate content(all Rag based)
 - **Demo Video:** [Watch the demo video](https://youtu.be/2MAV9zW43QE)
 - **Please do see the ui / ux frontend first as it would give a clue on what we are working on, in this video we only have a poc of the frontend which would be improved by 10x till finale.**
 [![Watch the demo video]![thumbnail](![image](https://github.com/user-attachments/assets/4970c42a-d863-4923-a299-35eb443f69a0)
-)
 ()](https://youtu.be/2MAV9zW43QE)
 
 ## **PPT LINK: Edu-connect Prototype**
