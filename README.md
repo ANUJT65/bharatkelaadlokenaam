@@ -269,7 +269,7 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 
 
 ![image](https://github.com/user-attachments/assets/19bfaaa8-015a-4bc0-941d-b9683f256696)
-- **Description of above image**: 
+**Description of above image**: 
  - Quiz is generated  with adaptive difficulty and score at fixed duration of time all based on video content
  - This  is generated at fix interval of time so that student is always engaged.
 ![image](https://github.com/user-attachments/assets/53ac55df-daff-48dc-8953-37cc72b09954)
