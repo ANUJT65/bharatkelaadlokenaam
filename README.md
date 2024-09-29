@@ -348,19 +348,7 @@ Present Models how they generate content(all Rag based)
 ![classnotesmodel](https://github.com/user-attachments/assets/6b72af0b-fc0d-41dd-be66-d118073d2311)
 
 
-### **Business Aspects and Cost Analysis**
 
-### **Cost Effectiveness ALL RESOURCES ARE GENERATED ONLY ONCE WHEN VIDEO IS UPLOADED TO SAVE COSTS**
-
-- **AI-Generated Resources:** Created once and stored in Azure Blob Storage and MongoDB Atlas, reducing repeated generation costs and optimizing resource usage.
-- **Storage Costs:** Utilizing Azure Blob and MongoDB Atlas for efficient and cost-effective storage.
-
-### **SaaS Pass Model**
-
-- **Subscription-Based Access:** Offers predictable costs and scalability for educational institutions.
-- **Reduced Bandwidth Costs:** Optimized data usage lowers operational costs, making it a cost-effective solution for remote education.
-
----
 
 ## **DEPENDENCIES**
 - **Cost Management:** Ensuring that the cost for the platform remains manageable. Most materials like MCQs, images, and notes are generated once and stored in Azure Blob and MongoDB Atlas while videos are uploading.
@@ -372,6 +360,11 @@ Present Models how they generate content(all Rag based)
 
 ## **BUSINESS RELEVANCE**
 ![image](https://github.com/user-attachments/assets/659db129-965b-44e6-b51c-e06a56b58cd0)
+
+- **Cost Effectiveness ALL RESOURCES ARE GENERATED ONLY ONCE WHEN VIDEO IS UPLOADED TO SAVE COSTS**:
+  
+- **AI-Generated Resources:** Created once and stored in Azure Blob Storage and MongoDB Atlas, reducing repeated generation costs and optimizing resource usage.
+- **Storage Costs:** Utilizing Azure Blob and MongoDB Atlas for efficient and cost-effective storage.
 
 
 ## **Impact And Benefits**
