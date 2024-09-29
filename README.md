@@ -102,13 +102,13 @@
     - Student Demographics, location and resource management
   - **Feedback Mechanism:** Receive insights on student performance, including dropout risk scores.
 
-- **AI-Generated Resources Storage:**
+- **AI-Generated Resources Storage(RAG BASED ):**
   - AI-generated resources (e.g., images, quizzes) are created once and stored in:
     - **MongoDB:** For structured data storage.
     - **Microsoft Azure Blob Storage:** For storing large files and assets.
 
 ### Student Side
-- **Engagement Enhancer Module:**
+- **Engagement Enhancer Module: (ALL RAGS BASED)**
   - **Adaptive Quiz with timely engaement monitoring:** Generate quizzes that adapt in difficulty based on student performance at interval at 2-5 minutes.
   - **Image Generation:** Create visual aids passing relevant keywords and key sentences from viddeo to  Stable Diffusion image generation model.
   - **Mind Map Generation:** Generate mind maps to visualize concepts for better understanding.
