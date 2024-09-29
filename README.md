@@ -372,7 +372,7 @@ Present Models how they generate content(all Rag based)
 
 (Watch the demo video on 2X speed if you prefer it.)
 - **Demo Video:** [Watch the demo video](https://youtu.be/2MAV9zW43QE)
-- **Please do see the ui / ux frontend first as it would give a clue on what we are working on, in this video we only have a poc of the frontend which would be improved by 10x till finale.**
+- **Please do see the present implementation and future implementation ui/frontend first as it would give a clue on what we are working on, in this video we only have  poc of the low latency/low data live streaming solution and also generation of ai resources,  whose ui/frontend would be improved by 10x till finale.**
 [![Watch the demo video]![thumbnail](![image](https://github.com/user-attachments/assets/4970c42a-d863-4923-a299-35eb443f69a0)
 ()](https://youtu.be/2MAV9zW43QE)
 
