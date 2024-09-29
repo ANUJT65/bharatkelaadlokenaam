@@ -27,7 +27,7 @@
 | 18 | [BUSINESS RELEVANCE](#BUSINESS-RELEVANCE)                                                                          |
 | 19 | [Impact And Benefits](#Impact-And-Benefits)                                                                        |
 | 20 | [DEMO VIDEO](#DEMO-VIDEO)                                                                                          |
-| 21 | [Feedback Form](feedback-form)                                                                                     |
+| 21 | [FeedbackForm](feedbackform)                                                                                     |
 
 
 
@@ -389,10 +389,21 @@ Present Models how they generate content(all Rag based)
 ## **PPT LINK: Edu-connect Prototype**
 - [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1lS-D2Hg082QVSKBqYwQ98Jx9Z66FGlRJdlipw_SRnlE/edit#slide=id.g302193ce8f2_0_820)
   
-## **Feedback Form**
+## **FeedbackForm**
 - We really appreciate the opportunity given to us by Ministry of Education and are looking forward to implement this solution , please do give feedback about our project as it would help us a lot to make future improvements
 - Thank you really much again for taking time to fill up the form!
 - https://docs.google.com/forms/d/e/1FAIpQLSf-Ck4gRUHMlhzhKE3YIHNhV-6UysEqrPVXp4vzBKcCXd2jPw/viewform
+
+## RESEARCH REFERENCES:
+https://docs.google.com/document/d/1k78TigEAXfy9MlDWL4xvCRBdZ6BuXjUK4Nzz6nxlHIs/edit
+https://www.researchgate.net/publication/373045881_Impact_of_Online_Learning_on_Student_Engagement_and_Academic_Performance
+https://www.unicef.org/rosa/sites/unicef.org.rosa/files/2020-06/Media%20Fact%20Sheet%3A%20Unequal%20access%20to%20remote%20schooling.pdf
+https://www.researchgate.net/publication/376456861_ANALYZING_THE_IMPACT_OF_STUDENT_ENGAGEMENT_ON_LEARNING_OUTCOMES_IN_E-LEARNING_PLATFORMS_A_SYSTEMATIC_REVIEW_OF_LITRETURE
+https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-021-00270-1
+https://link.springer.com/article/10.1007/s10758-023-09704-3
+https://www.sciencedirect.com/science/article/pii/S2590291124000676
+https://journals.sagepub.com/doi/full/10.1177/2042753019882567
+https://www.researchgate.net/publication/384067695_Impact_of_Technology-Enhanced_Learning_on_Student_Outcomes
 
 
 
