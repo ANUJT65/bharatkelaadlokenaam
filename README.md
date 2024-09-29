@@ -23,10 +23,11 @@
 |14  | [AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW DATA CONSUMPTION](#ai-resource-generation-how-we-ensure-efficient-and-low-data-consumption)  |
 | 15 | [Low Latency Platform](#low-latency-platform)                                                                      |
 | 16 | [Present Implementation](#present-implementation)                                                                  |
-| 16 | [BUSINESS RELEVANCE](#BUSINESS-RELEVANCE)                                                                          |
-| 17 | [Impact And Benefits](#Impact-And-Benefits)                                                                        |
-| 18 | [DEMO VIDEO](#DEMO-VIDEO)                                                                                          |
-| 19 | [Feedback Form](feedback-form)                                                                                     |
+| 17 | [Future Implementation](#future-implementation)                                                                  |
+| 18 | [BUSINESS RELEVANCE](#BUSINESS-RELEVANCE)                                                                          |
+| 19 | [Impact And Benefits](#Impact-And-Benefits)                                                                        |
+| 20 | [DEMO VIDEO](#DEMO-VIDEO)                                                                                          |
+| 21 | [Feedback Form](feedback-form)                                                                                     |
 
 
 
@@ -267,7 +268,6 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 ## **Present Implementation**
 
 
-
 ![image](https://github.com/user-attachments/assets/19bfaaa8-015a-4bc0-941d-b9683f256696)
 **Description of above image**: 
  - Quiz is generated  with adaptive difficulty and score at fixed duration of time all based on video content
@@ -298,17 +298,20 @@ Our platform uniquely addresses data consumption issues, which is a major concer
 ## **NEXT IMPLEMENTATION**
 Student Side dashboard:
 ![WhatsApp Image 2024-09-29 at 4 02 58 PM](https://github.com/user-attachments/assets/1c9185fd-b84c-489b-8834-8936fb1908e2)
-Description:
--
+- **Description:**
+- This is where students can access their attendance, classes , also info about upcoming vocational tests 
+- They can join live classes or see uploaded lectures, whatever they desire.
 
 ![WhatsApp Image 2024-09-29 at 4 14 12 PM](https://github.com/user-attachments/assets/479029b9-d314-491d-9146-685e43d8c278)
-Description:
+- **Description:**
 - Here students have a list of videos.
 - Students can view recordings of previous classes and join live classes.
 - Student can see resources which Teachers have shared , like MindMaps and Notes which will be AI Generated.
 
+**Teacher/Student side**
 
 ![WhatsApp Image 2024-09-29 at 4 13 17 PM](https://github.com/user-attachments/assets/d2e37f44-05f3-4aae-8d22-3dba12d07eb7)
+- **Description of above image:**
 - This is the live class view. Whiteboard and PPT can be viewed side by side.
 - Teacher can explain points using PPT and draw diagrams, solve questions on the - whiteboard all which will be seen in real time over low latency networks
 - This is also where images are visualized in chat, where all are retrieved at specific time intervals from databases/blob storage, all based on video content.
@@ -318,9 +321,12 @@ Description:
 - **DESCRIPTION OF ABOVE IMAGE**
 - This is the teacher dashboard. 
 - Teacher can schedule tests, classes and upload resources here. Additionally, they can conduct classes using pre-attached PPTs and draw on whiteboard. 
-- Teachers will also be able to see students who are not able to engage in class and thus give attention
 
 ![WhatsApp Image 2024-09-29 at 4 04 19 PM](https://github.com/user-attachments/assets/cbfc2ab3-3edd-4bbf-982f-e6d739c3d2c3)
+- **DESCRIPTION OF ABOVE IMAGE**
+- Teachers will also be able to see students who are not able to engage in class and thus give attention to weaker students
+- Count of engagement analytics as well as doubts solved is also shown here
+- Engagement will be counted at each interval of time so that we can make sure that teacher is also getting appropriate feedback about their teachings.
 
 
 
