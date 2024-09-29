@@ -22,9 +22,10 @@
 | 13 | [Advantages of Azure CDN for Remote Education](#advantages-of-azure-cdn-for-remote-education)                       |
 |14  | [AI-Resource Generation: HOW WE ENSURE EFFICIENT AND LOW DATA CONSUMPTION](#ai-resource-generation-how-we-ensure-efficient-and-low-data-consumption)  |
 | 15 | [Low Latency Platform](#low-latency-platform)                                                                      |
-| 16 | [Present Implementation](#present-implementation)   
-| 16 | [BUSINESS RELEVANCE](#BUSINESS-RELEVANCE)   
-| 17 | [Impact And Benefits](#Impact-And-Benefits)
+| 16 | [Present Implementation](#present-implementation)                                                                  |
+| 16 | [BUSINESS RELEVANCE](#BUSINESS-RELEVANCE)                                                                          |
+| 17 | [Impact And Benefits](#Impact-And-Benefits)                                                                        |
+| 18 | [DEMO VIDEO](#DEMO-VIDEO)
 
 
 
