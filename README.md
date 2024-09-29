@@ -395,6 +395,11 @@ Present Models how they generate content(all Rag based)
 - https://docs.google.com/forms/d/e/1FAIpQLSf-Ck4gRUHMlhzhKE3YIHNhV-6UysEqrPVXp4vzBKcCXd2jPw/viewform
 
 ## RESEARCH REFERENCES:
+https://medium.com/@digital_samba/a-comparison-of-webrtc-vs-websocket-07e5343871b4
+https://stribny.name/blog/2020/07/real-time-data-streaming-using-fastapi-and-websockets/
+https://stackoverflow.com/questions/61100602/ffmpeg-to-webrtc-via-udp-and-datachannel-for-low-latency-screenshare
+https://dolby.io/blog/the-complete-guide-to-low-latency-in-live-streaming/
+https://ieeexplore.ieee.org/document/9522198
 https://docs.google.com/document/d/1k78TigEAXfy9MlDWL4xvCRBdZ6BuXjUK4Nzz6nxlHIs/edit
 https://www.researchgate.net/publication/373045881_Impact_of_Online_Learning_on_Student_Engagement_and_Academic_Performance
 https://www.unicef.org/rosa/sites/unicef.org.rosa/files/2020-06/Media%20Fact%20Sheet%3A%20Unequal%20access%20to%20remote%20schooling.pdf
