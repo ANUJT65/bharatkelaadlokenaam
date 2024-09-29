@@ -295,7 +295,25 @@ Our platform uniquely addresses data consumption issues, which is a major concer
  - This module takes your tests in any language you are comfortable with.
  - Also analysis of your answers are shown just below, we are still working on making it more student friendly!.
 
-   
+## **NEXT IMPLEMENTATION**
+Student Side dashboard:
+![WhatsApp Image 2024-09-29 at 4 02 58 PM](https://github.com/user-attachments/assets/1c9185fd-b84c-489b-8834-8936fb1908e2)
+Description:
+-
+
+![WhatsApp Image 2024-09-29 at 4 14 12 PM](https://github.com/user-attachments/assets/479029b9-d314-491d-9146-685e43d8c278)
+Description:
+- Here students have alist of videos
+
+![WhatsApp Image 2024-09-29 at 4 13 17 PM](https://github.com/user-attachments/assets/d2e37f44-05f3-4aae-8d22-3dba12d07eb7)
+
+
+**Teacher Side**
+![WhatsApp Image 2024-09-29 at 4 03 28 PM](https://github.com/user-attachments/assets/2ca3f56e-00cb-4558-a59a-6e86b886f7fa)
+
+![WhatsApp Image 2024-09-29 at 4 04 19 PM](https://github.com/user-attachments/assets/cbfc2ab3-3edd-4bbf-982f-e6d739c3d2c3)
+
+
 
 ### **Previous Methodology(OUR TRIAL AND ERROR/Research )**
 
