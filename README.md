@@ -359,6 +359,14 @@ Present Models how they generate content(all Rag based)
 
 ## **PPT LINK: Edu-connect Prototype**
 - [View and Download the PPT Presentation](https://docs.google.com/presentation/d/1lS-D2Hg082QVSKBqYwQ98Jx9Z66FGlRJdlipw_SRnlE/edit#slide=id.g302193ce8f2_0_820)
+  
+## **Feedback Form**
+- We really appreciate the opportunity given to us by Ministry of Education and are looking forward to implement this solution , please do give feedback about our project as it would help us a lot to make future improvements
+- Thank you really much again for taking time to fill up the form!
+- https://docs.google.com/forms/d/e/1FAIpQLSf-Ck4gRUHMlhzhKE3YIHNhV-6UysEqrPVXp4vzBKcCXd2jPw/viewform
+
+
+
 
 
 
