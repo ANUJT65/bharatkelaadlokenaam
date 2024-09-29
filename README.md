@@ -346,16 +346,10 @@ Present Models how they generate content(all Rag based)
 
 
 
-## **FUTURE WORK**
-- **WebSocket/RTC and ML Integration:** Integrate WebRTC and ML-based models in cameras before videos are sent over the internet. Where full software integration is not possible, models can be used separately with existing services.
-
-
 ## **DEMO VIDEO**
 (Watch the demo video on 2X speed if you prefer.t.)
 - **Demo Video:** [Watch the demo video](https://youtu.be/2MAV9zW43QE)
-
-- IF YOU WANT TO SEE IMAGES, YOU CAN GO TO #IMPLEMENTATION FROM THE TABLE OF CONTENTS OR WATCH THE VIDEO.
-
+- **Please do see the ui / ux frontend first as it would give a clue on what we are working on, in this video we only have a poc of the frontend which would be improved by 10x till finale.**
 [![Watch the demo video]![thumbnail](https://github.com/user-attachments/assets/4a081e46-4828-4e7f-9201-dcf3829fd572)
 ()](https://youtu.be/2MAV9zW43QE)
 
