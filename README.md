@@ -356,10 +356,10 @@ Present Models how they generate content(all Rag based)
 ## **BUSINESS RELEVANCE**
 ![image](https://github.com/user-attachments/assets/659db129-965b-44e6-b51c-e06a56b58cd0)
 
-- **Cost Effectiveness ALL RESOURCES ARE GENERATED ONLY ONCE WHEN VIDEO IS UPLOADED TO SAVE COSTS**:
+**Cost Effectiveness ALL RESOURCES ARE GENERATED ONLY ONCE WHEN VIDEO IS UPLOADED TO SAVE COSTS**:
   
 - **AI-Generated Resources:** Created once and stored in Azure Blob Storage and MongoDB Atlas, reducing repeated generation costs and optimizing resource usage.
-- **Storage Costs:** Utilizing Azure Blob and MongoDB Atlas for efficient and cost-effective storage.
+
 
 
 ## **Impact And Benefits**
