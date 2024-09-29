@@ -315,6 +315,10 @@ Description:
 
 **Teacher Side**
 ![WhatsApp Image 2024-09-29 at 4 03 28 PM](https://github.com/user-attachments/assets/2ca3f56e-00cb-4558-a59a-6e86b886f7fa)
+- **DESCRIPTION OF ABOVE IMAGE**
+- This is the teacher dashboard. 
+- Teacher can schedule tests, classes and upload resources here. Additionally, they can conduct classes using pre-attached PPTs and draw on whiteboard. 
+- Teachers will also be able to see students who are not able to engage in class and thus give attention
 
 ![WhatsApp Image 2024-09-29 at 4 04 19 PM](https://github.com/user-attachments/assets/cbfc2ab3-3edd-4bbf-982f-e6d739c3d2c3)
 
