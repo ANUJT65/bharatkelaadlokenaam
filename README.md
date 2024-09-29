@@ -303,10 +303,15 @@ Description:
 
 ![WhatsApp Image 2024-09-29 at 4 14 12 PM](https://github.com/user-attachments/assets/479029b9-d314-491d-9146-685e43d8c278)
 Description:
-- Here students have alist of videos
+- Here students have a list of videos.
+- Students can view recordings of previous classes and join live classes.
+- Student can see resources which Teachers have shared , like MindMaps and Notes which will be AI Generated.
+
 
 ![WhatsApp Image 2024-09-29 at 4 13 17 PM](https://github.com/user-attachments/assets/d2e37f44-05f3-4aae-8d22-3dba12d07eb7)
-
+- This is the live class view. Whiteboard and PPT can be viewed side by side.
+- Teacher can explain points using PPT and draw diagrams, solve questions on the - whiteboard all which will be seen in real time over low latency networks
+- This is also where images are visualized in chat, where all are retrieved at specific time intervals from databases/blob storage, all based on video content.
 
 **Teacher Side**
 ![WhatsApp Image 2024-09-29 at 4 03 28 PM](https://github.com/user-attachments/assets/2ca3f56e-00cb-4558-a59a-6e86b886f7fa)
