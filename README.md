@@ -3,9 +3,9 @@
 
 ## **Problem Statement AND TEAM DETAILS(WITH ID)**
 ![image](https://github.com/user-attachments/assets/312049de-4b10-4c8f-bee6-e7ed2e58c614)
-**TEAM LEADER: SNEHA JAIN**
-**TEAM NAME: @CYBER WARDENS**
-**TEAM ID: 9804**
+- **TEAM LEADER: SNEHA JAIN**
+- **TEAM NAME: @CYBER WARDENS**
+- **TEAM ID: 9804**
 
 
 
