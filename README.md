@@ -1,7 +1,7 @@
 
 # **GramShiksha: Providing Fast Education To Remotest Places**  
 
-## **Problem Statement AND TEAM DETAILS(WITH ID 9804)**
+## **Problem Statement And Team Details(WITH ID 9804)**
 ![image](https://github.com/user-attachments/assets/312049de-4b10-4c8f-bee6-e7ed2e58c614)
 - **TEAM LEADER: SNEHA JAIN**
 - **TEAM NAME: @CYBER WARDENS**
